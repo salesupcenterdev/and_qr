@@ -49,13 +49,13 @@ h6 {
 	font-family: 'LytigaPro-CondensedMedium', sans-serif;
 }
 
-a{
+.link-text{
 	color:#00708a;
 	font-family:LytigaPro-Regular;
 	text-decoration: none;
 }
 
-p{
+.text-content{
 	font-size:16px;
 	line-height: 32px;
 }
@@ -420,7 +420,7 @@ a.panel-toggle{
 		font-size: 48px;
 		padding:0 20px;
 	}
-	p{
+	.text-content{
 		padding:0 20px;
 	}
 	
@@ -468,7 +468,7 @@ a.panel-toggle{
 		padding-right: 5px;
 
 	}
-	p{
+	.text-content{
 		font-size:18px;
 		line-height: 30px;
 	}
