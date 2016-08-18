@@ -124,15 +124,16 @@ p{
 }
 
 /* reseting default bootstrap styles */
-.nav > li > a:hover,
-.nav > li > a:focus {
+/* навигацыя меню */
+.nav > .navigate-top > .link-navigate:hover,
+.nav > .navigate-top > .link-navigate:focus {
   text-decoration: none;
   background-color: transparent;
  }
 
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
+.nav .open > .link-navigate,
+.nav .open > .link-navigate:hover,
+.nav .open > .link-navigate:focus {
   background-color: transparent;
   border-color: transparent;
 }
@@ -201,7 +202,8 @@ p{
           box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 
-.dropdown-menu > li > a {
+/* подменю */
+.dropdown-menu > .dropdown-navigate > .dropdown-link-menu {
   display: block;
   padding: 5px 20px 5px 10px;
   clear: both;
@@ -211,8 +213,8 @@ p{
   color: #fff;
   white-space: nowrap;
 }
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
+.dropdown-menu > .dropdown-navigate > .dropdown-link-menu:hover,
+.dropdown-menu > .dropdown-navigate > .dropdown-link-menu:focus {
 	color: #00bce7;
 	text-decoration: none;
 	border-left:4px solid #00bce7;
@@ -220,14 +222,15 @@ p{
 	background-color:transparent;
 }
 
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
+.dropdown-menu > .active > .dropdown-link-menu,
+.dropdown-menu > .active > .dropdown-link-menu:hover,
+.dropdown-menu > .active > .dropdown-link-menu:focus {
 	color: #00bce7;
 	text-decoration: none;
 	background-color:transparent;
 	outline: 0;
 }
+/* /подменю */
 
 .navbar-toggle {
 	position: relative;
@@ -435,11 +438,11 @@ a.panel-toggle{
 
 
 @media (max-width: 768px) { /* these styles will appear if screen less than 768px */
-	.navbar-nav li a:hover{
+	.navbar-nav .navigate-top .link-navigate:hover{
 		border-left:4px solid #00bce7;
 		border-bottom:none;
 	}
-	.navbar-nav li a:focus{
+	.navbar-nav .navigate-top .link-navigate:focus{
 		border-left:4px solid #00bce7;
 		border-bottom:none;
 	}
