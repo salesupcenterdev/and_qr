@@ -34,7 +34,48 @@
 
 <body>
 <!-- подключаем блок меню >> навигацыии -->
-	<?php include "navigation.php" ?>
+	 <!-- <?php //include "navigation.php" ?> -->
+
+
+<!-- Navigation -->
+<!-- Navigation -->
+	<nav class="navbar navbar-fixed-top navbar-light" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img class="nav-logo" src="img/logo.png"></a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="navigate-top">
+						<a href="index.php" class="navbar-nav-item link-navigate">Главная</a>
+					</li>
+					<li class="navigate-top">
+						<a href="#about" class="navbar-nav-item link-navigate">Про сервис</a>
+					</li>
+					<li class="dropdown navigate-top">
+						<a href="#" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="navbar-nav-item link-navigate">Сервисы<span class="caret"></span></a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								<li class="dropdown-navigate"><a class="dropdown-link-menu" href="evaq.html">Список эвакуаторов</a></li>
+								<li class="dropdown-navigate"><a class="dropdown-link-menu" href="pages/taxi.php">Список такси</a></li>
+							</ul>
+					</li>
+					<li class="navigate-top">
+						<a href="#contacts" class="navbar-nav-item link-navigate">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		<!-- /.container -->
+	</nav>
+
+
 
 <!-- перенос в файл navigation.php Marianna -->
 <!-- Navigation -->
@@ -53,20 +94,20 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<!-- <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li>
+					<li class="navigate-top">
 						<a href="#" class="navbar-nav-item">Главная</a>
 					</li>
-					<li>
+					<li class="navigate-top">
 						<a href="#about" class="navbar-nav-item">Про сервис</a>
 					</li>
-					<li class="dropdown">
+					<li class="dropdown navigate-top">
 						<a href="#" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="navbar-nav-item">Сервисы<span class="caret"></span></a>
 							<ul class="dropdown-menu" aria-labelledby="dLabel">
-								<li><a href="evaq.html">Список эвакуаторов</a></li>
-								<li><a href="taxi.html">Список такси</a></li>
+								<li class="dropdown-navigate"><a href="evaq.html">Список эвакуаторов</a></li>
+								<li class="dropdown-navigate"><a href="taxi.html">Список такси</a></li>
 							</ul>
 					</li>
-					<li>
+					<li class="navigate-top">
 						<a href="#contacts" class="navbar-nav-item">Контакты</a>
 					</li>
 				</ul>
@@ -132,7 +173,7 @@
 
 	<!-- Page Content -->
 	
-	<section id="services" class="visible-xs visible-sm first-section">
+	<section id="services" class="visible-xs visible-sm first-section section-content">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 text-center">
@@ -147,11 +188,11 @@
 	</section>
 
 	<!-- ABOUT SECTION -->
-	<section id="about">
+	<section id="about" class="section-content">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Про сервис</h1>
+					<h1 class="title-start">Про сервис</h1>
 					<p class="text-justify text-content">
 						Мы в АНД всегда хотим быть рядом с вами в трудную минуту. Поэтому представляем новый сервис.
 						Вы можете вызвать такси или эвакуатор в соответствующем разделе.
@@ -168,11 +209,11 @@
 	<hr class="hidden-xs hidden-sm">
 	
 	<!-- SERVICE SECTION -->
-	<section id="services" class="hidden-xs hidden-sm">
+	<section id="services" class="hidden-xs hidden-sm section-content">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Сервисы</h1>
+					<h1 class="title-start">Сервисы</h1>
 					<p class="text-content">Описание что можно сделать с разделами сервисов</p>
 				</div>
 				<div class="text-center">
@@ -208,11 +249,11 @@
 	
 
 	<!-- NEWS SECTION -->
-	<section id="news" class="hidden-xs hidden-sm">
+	<section id="news" class="hidden-xs hidden-sm section-content">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1>Новости</h1><br>
+					<h1 class="title-start">Новости</h1><br>
 					<p class="text-content">Здесь транслируются новости с основного сайта. Сначала идут три новости, потом блок перехода в раздел всех новостей </p>
 				</div>
 			</div>
@@ -241,11 +282,11 @@
 		</div>
 	</section>
 
-	<section id="contacts" >
+	<section id="contacts" class="section-content">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-						<h1>Контакты</h1>
+						<h1 class="title-start">Контакты</h1>
 						<p class="text-content">
 							<ul class="contact-list">
 								<li class="contact-list-item">Позвоните нам: <a class="link-text" href="tel:+380441234455">(044) 123 44 55</a></li>
@@ -259,7 +300,7 @@
 	</section>
 	
 	<!-- footer include -->
-	<?php include "footer.php" ?>
+	<?php include "templates/footer.php" ?>
 
 	<!-- commit Marianna >> include -->
 	<!-- <section id="footer" class="footer">
@@ -299,13 +340,16 @@
 	
 
 	<!-- jQuery -->
-	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
 
 	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 	<!-- custom script -->
-	<script src="js/script.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<!-- збір статистики -->
+	<script type="text/javascript" src="js/scriptlandcc.js"></script>
 
 	<!-- Script to Activate the Carousel -->
 	<script>
