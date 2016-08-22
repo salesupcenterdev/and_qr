@@ -35,249 +35,199 @@
 <!-- подключаем блок меню >> навигацыии -->
 	<?php include "../templates/navigation.php" ?>
 
-<!-- перенос в файл navigation.php Marianna -->
-<!-- Navigation -->
-	<!-- <nav class="navbar navbar-fixed-top navbar-light" role="navigation"> -->
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<!-- <div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#"><img class="nav-logo" src="img/logo.png"></a>
-			</div> -->
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<!-- <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li>
-						<a href="index.html" class="navbar-nav-item">Главная</a>
-					</li>
-					<li>
-						<a href="index.html#about" class="navbar-nav-item">Про сервис</a>
-					</li>
-					<li class="dropdown">
-						<a href="#" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="navbar-nav-item">Сервисы<span class="caret"></span></a>
-							<ul class="dropdown-menu" aria-labelledby="dLabel">
-								<li><a href="evaq.html">Список эвакуаторов</a></li>
-								<li><a href="taxi.html">Список эвакуатор</a></li>
-							</ul>
-					</li>
-					<li>
-						<a href="index.html#contacts" class="navbar-nav-item">Контакты</a>
-					</li>
-				</ul>
-			</div> -->
-			<!-- /.navbar-collapse -->
-		<!-- /.container -->
-	<!-- </nav> -->
-
-
+	<div id="wrap">
+		<div id="main">
 
 	<!-- Full Width Image Header -->
-	<header class="header-image hidden-xs hidden-sm" style="background: url('../img/header3.jpg') no-repeat center center scroll;">
-		<div class="headline">
-			<div class="container">
-				<h1 class="title-start">Эвакуаторы Киева</h1>
-				<h2>Все эвакуаторы Киева с вызовом к вашему местоположению</h2>
-			</div>
-		</div>
-	</header>
-
-	<!-- Page Content -->
-	
-	<section class="visible-xs visible-sm first-section section-content">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<h1 class="title-start">Службы эвакуаторов</h1>
-					<p class="text-content">Здесь будет текст</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="section-content">
-		<div class="container">
-				<div class="row">				
-					<dl class="services-list visible-xs visible-sm">
-						<dt class="services-list-item-title">Междугороднее эвакуатор IntercityTAXI</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380933635250">(093) 363-52-50</a><br>
-						</dd>
-						<dt class="services-list-item-title">Метиор эвакуатор</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380443937393">(044) 393-73-93</a><br>
-							<a class="link-text" href="tel: +380446393333">(044) 639-33-33</a><br>
-							<a class="link-text" href="tel: +380986193333">(098) 619-33-33</a><br>
-						</dd>
-						<dt class="services-list-item-title">Джем-эвакуатор</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380445028555">(044) 502-85-55</a><br>
-							<a class="link-text" href="tel: +380445028555">(044) 502-85-55</a><br>
-							<a class="link-text" href="tel: +380632717522">(063) 271-75-22</a><br>
-						</dd>
-						<dt class="services-list-item-title">эвакуатор Окей</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380443930303">(044) 393-03-03</a><br>
-						</dd>
-						<dt class="services-list-item-title">Радио эвакуатор Столица</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380442496249">(044) 249-62-49</a><br>
-							<a class="link-text" href="tel: +380933146249">(093) 314-62-49</a><br>
-						</dd>
-						<dt class="services-list-item-title">эвакуатор 5</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380443324224">(044) 332-42-24</a><br>
-							<a class="link-text" href="tel: +380444061856">(044) 406-18-56</a><br>
-							<a class="link-text" href="tel: +380933242525">(093) 324-25-25</a><br>
-						</dd>
-						<dt class="services-list-item-title">Лимузин эвакуатор</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380445020808">(044) 502-08-08</a><br>
-							<a class="link-text" href="tel: +380442073737">(044) 207-37-37</a><br>
-							<a class="link-text" href="tel: +380638141450">(063) 814-14-50</a><br>
-						</dd>
-						<dt class="services-list-item-title">Союз эвакуатор</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380444559555">(044) 455-95-55</a><br>
-							<a class="link-text" href="tel: +380444559555">(044) 455-95-55</a><br>
-							<a class="link-text" href="tel: +380993139555">(099) 313-95-55</a><br>
-						</dd>
-						<dt class="services-list-item-title">эвакуатор на Дубровку</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380442908808">(044) 290-88-08</a><br>
-						</dd>
-						<dt class="services-list-item-title">Бизнес-эвакуатор</dt>
-						<dd class="services-list-item-text">
-							<a class="link-text" href="tel: +380443312010">(044) 331-20-10</a><br>
-							<a class="link-text" href="tel: +380443052010">(044) 305-20-10</a><br>
-							<a class="link-text" href="tel: +380971202010">(097) 120-20-10</a><br>
-						</dd>
-					</dl>
-
-					 <div class="table-responsive visible-md visible-lg">
-						<table class="table table-striped">
-							<thead class="table-title">
-								<tr>
-									<td>Название служб эвакуаторов</td>
-									<td>Городской</td>
-									<td>Vodafone (МТС)</td>
-									<td>Київстар</td>
-									<td>Lifecell (Life:))</td>
-								</tr>
-							</thead>
-							<tbody class="table-body">
-								<tr>
-									<td>Междугороднее эвакуатор IntercityTAXI</td>
-									<td>n/a</td>
-									<td>n/a</td>
-									<td>n/a</td>
-									<td><a href="tel:+380933635250">(093) 363-52-50</a></td>
-								</tr>
-								<tr>
-									<td>Метиор эвакуатор</td>
-									<td><a href="tel:+380443937393">(044) 393-73-93,</a><a href="tel:+380446393333"> (044) 639-33-33</a></td>
-									<td>n/a</td>
-									<td><a href="tel:+380986193333">(098) 619-33-33</a></td>
-									<td>n/a</td>
-								</tr>
-								<tr>
-									<td>Джем-эвакуатор</td>
-									<td><a href="tel:+380445028555">(044) 502-85-55</a></td>
-									<td>n/a</td>
-									<td>n/a</td>
-									<td><a href="tel:+380632717522">(063) 271-75-22</a></td>
-								</tr>
-								<tr>
-									<td>эвакуатор Окей</td>
-									<td><a href="tel:+380443930303">(044) 393-03-03</a></td>
-									<td>n/a</td>
-									<td>n/a</td>
-									<td>n/a</td>
-								</tr>
-								<tr>
-									<td>Радио эвакуатор Столица</td>
-									<td><a href="tel:+380442496249">(044) 249-62-49</a></td>
-									<td>n/a</td>
-									<td>n/a</td>
-									<td><a href="tel:+380933146249">(093) 314-62-49</a></td>
-								</tr>
-								<tr>
-									<td>эвакуатор 5</td>
-									<td><a href="tel:+380443324224">(044) 332-42-24,</a><a href="tel:+380444061856"> (044) 406-18-56</a></td>
-									<td>n/a</td>
-									<td>n/a</td>
-									<td><a href="tel:+380933242525">(093) 324-25-25</a></td>
-								</tr>
-								<tr>
-									<td>Лимузин эвакуатор</td>
-									<td><a href="tel:+380445020808">(044) 502-08-08,</a><a href="tel:+380442073737">(044) 207-37-37</a></td>
-									<td>n/a</td>
-									<td>n/a</td>
-									<td><a href="tel:+380638141450">(063) 814-14-50</a></td>
-								</tr>
-								<tr>
-									<td>Союз эвакуатор</td>
-									<td><a href="tel:+380444559555">(044) 455-95-55</a></td>
-									<td><a href="tel:+380993139555">(099) 313-95-55</a></td>
-									<td>n/a</td>
-									<td>n/a</td>
-								</tr>
-								<tr>
-									<td>эвакуатор на Дубровку</td>
-									<td><a href="tel:+380442908808">(044) 290-88-08</a></td>
-									<td>n/a</td>
-									<td>n/a</td>
-									<td>n/a</td>
-								</tr>
-								<tr>
-									<td>Бизнес-эвакуатор</td>
-									<td><a href="tel:+380443312010">(044) 331-20-10,</a><a href="tel:+380443052010">(044) 305-20-10</a></td>
-									<td>n/a</td>
-									<td><a href="tel:+380971202010">(097) 120-20-10</a></td>
-									<td>n/a</td>
-								</tr>
-							</tbody>
-						</table>
+			<header class="header-image hidden-xs hidden-sm" style="background: url('../img/header3.jpg') no-repeat center center scroll;">
+				<div class="headline">
+					<div class="container">
+						<h1 class="title-start">Эвакуаторы Киева</h1>
+						<h2>Все эвакуаторы Киева с вызовом к вашему местоположению</h2>
 					</div>
 				</div>
-			</div>
-		</section>
-	<!-- /.container -->
+			</header>
 
-	<section class="visible-xs visible-sm section-content">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<h1 class="title-start">Свой вариант</h1>
-					<p class="text-content">Здесь будет текст</p>
+			<!-- Page Content -->	
+			<section class="visible-xs visible-sm first-section section-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1 class="title-start">Службы эвакуаторов</h1>
+							<p class="text-content">Здесь будет текст</p>
+						</div>
 					</div>
-					<div class="col-xs-12 text-center">
-						<a href="#" class="btn btn-xs-visible">Предложить эвакуатор</a>
+				</div>
+			</section>
+
+			<section class="section-content">
+				<div class="container">
+					<div class="row">				
+						<dl class="services-list visible-xs visible-sm">
+							<dt class="services-list-item-title">Междугороднее эвакуатор IntercityTAXI</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380933635250">(093) 363-52-50</a><br>
+							</dd>
+							<dt class="services-list-item-title">Метиор эвакуатор</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380443937393">(044) 393-73-93</a><br>
+								<a class="link-text" href="tel: +380446393333">(044) 639-33-33</a><br>
+								<a class="link-text" href="tel: +380986193333">(098) 619-33-33</a><br>
+							</dd>
+							<dt class="services-list-item-title">Джем-эвакуатор</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380445028555">(044) 502-85-55</a><br>
+								<a class="link-text" href="tel: +380445028555">(044) 502-85-55</a><br>
+								<a class="link-text" href="tel: +380632717522">(063) 271-75-22</a><br>
+							</dd>
+							<dt class="services-list-item-title">эвакуатор Окей</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380443930303">(044) 393-03-03</a><br>
+							</dd>
+							<dt class="services-list-item-title">Радио эвакуатор Столица</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380442496249">(044) 249-62-49</a><br>
+								<a class="link-text" href="tel: +380933146249">(093) 314-62-49</a><br>
+							</dd>
+							<dt class="services-list-item-title">эвакуатор 5</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380443324224">(044) 332-42-24</a><br>
+								<a class="link-text" href="tel: +380444061856">(044) 406-18-56</a><br>
+								<a class="link-text" href="tel: +380933242525">(093) 324-25-25</a><br>
+							</dd>
+							<dt class="services-list-item-title">Лимузин эвакуатор</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380445020808">(044) 502-08-08</a><br>
+								<a class="link-text" href="tel: +380442073737">(044) 207-37-37</a><br>
+								<a class="link-text" href="tel: +380638141450">(063) 814-14-50</a><br>
+							</dd>
+							<dt class="services-list-item-title">Союз эвакуатор</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380444559555">(044) 455-95-55</a><br>
+								<a class="link-text" href="tel: +380444559555">(044) 455-95-55</a><br>
+								<a class="link-text" href="tel: +380993139555">(099) 313-95-55</a><br>
+							</dd>
+							<dt class="services-list-item-title">эвакуатор на Дубровку</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380442908808">(044) 290-88-08</a><br>
+							</dd>
+							<dt class="services-list-item-title">Бизнес-эвакуатор</dt>
+							<dd class="services-list-item-text">
+								<a class="link-text" href="tel: +380443312010">(044) 331-20-10</a><br>
+								<a class="link-text" href="tel: +380443052010">(044) 305-20-10</a><br>
+								<a class="link-text" href="tel: +380971202010">(097) 120-20-10</a><br>
+							</dd>
+						</dl>
+
+						 <div class="table-responsive visible-md visible-lg">
+							<table class="table table-striped">
+								<thead class="table-title">
+									<tr>
+										<td>Название служб эвакуаторов</td>
+										<td>Городской</td>
+										<td>Vodafone (МТС)</td>
+										<td>Київстар</td>
+										<td>Lifecell (Life:))</td>
+									</tr>
+								</thead>
+								<tbody class="table-body">
+									<tr>
+										<td>Междугороднее эвакуатор IntercityTAXI</td>
+										<td>n/a</td>
+										<td>n/a</td>
+										<td>n/a</td>
+										<td><a href="tel:+380933635250">(093) 363-52-50</a></td>
+									</tr>
+									<tr>
+										<td>Метиор эвакуатор</td>
+										<td><a href="tel:+380443937393">(044) 393-73-93,</a><a href="tel:+380446393333"> (044) 639-33-33</a></td>
+										<td>n/a</td>
+										<td><a href="tel:+380986193333">(098) 619-33-33</a></td>
+										<td>n/a</td>
+									</tr>
+									<tr>
+										<td>Джем-эвакуатор</td>
+										<td><a href="tel:+380445028555">(044) 502-85-55</a></td>
+										<td>n/a</td>
+										<td>n/a</td>
+										<td><a href="tel:+380632717522">(063) 271-75-22</a></td>
+									</tr>
+									<tr>
+										<td>эвакуатор Окей</td>
+										<td><a href="tel:+380443930303">(044) 393-03-03</a></td>
+										<td>n/a</td>
+										<td>n/a</td>
+										<td>n/a</td>
+									</tr>
+									<tr>
+										<td>Радио эвакуатор Столица</td>
+										<td><a href="tel:+380442496249">(044) 249-62-49</a></td>
+										<td>n/a</td>
+										<td>n/a</td>
+										<td><a href="tel:+380933146249">(093) 314-62-49</a></td>
+									</tr>
+									<tr>
+										<td>эвакуатор 5</td>
+										<td><a href="tel:+380443324224">(044) 332-42-24,</a><a href="tel:+380444061856"> (044) 406-18-56</a></td>
+										<td>n/a</td>
+										<td>n/a</td>
+										<td><a href="tel:+380933242525">(093) 324-25-25</a></td>
+									</tr>
+									<tr>
+										<td>Лимузин эвакуатор</td>
+										<td><a href="tel:+380445020808">(044) 502-08-08,</a><a href="tel:+380442073737">(044) 207-37-37</a></td>
+										<td>n/a</td>
+										<td>n/a</td>
+										<td><a href="tel:+380638141450">(063) 814-14-50</a></td>
+									</tr>
+									<tr>
+										<td>Союз эвакуатор</td>
+										<td><a href="tel:+380444559555">(044) 455-95-55</a></td>
+										<td><a href="tel:+380993139555">(099) 313-95-55</a></td>
+										<td>n/a</td>
+										<td>n/a</td>
+									</tr>
+									<tr>
+										<td>эвакуатор на Дубровку</td>
+										<td><a href="tel:+380442908808">(044) 290-88-08</a></td>
+										<td>n/a</td>
+										<td>n/a</td>
+										<td>n/a</td>
+									</tr>
+									<tr>
+										<td>Бизнес-эвакуатор</td>
+										<td><a href="tel:+380443312010">(044) 331-20-10,</a><a href="tel:+380443052010">(044) 305-20-10</a></td>
+										<td>n/a</td>
+										<td><a href="tel:+380971202010">(097) 120-20-10</a></td>
+										<td>n/a</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 					</div>
-			</div>
-		</div>
-	</section>
+				</div>
+			</section>
+			<!-- /.container -->
+
+			<section class="visible-xs visible-sm section-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1 class="title-start">Свой вариант</h1>
+							<p class="text-content">Здесь будет текст</p>
+						</div>
+						<div class="col-xs-12 text-center">
+							<a href="#" class="btn btn-xs-visible">Предложить эвакуатор</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div> <!-- / id="main" -->
+	</div> <!-- / id="wrap" -->
 
 	<!-- footer include -->
 	<?php include "../templates/footer.php" ?>
-
-	<!-- commit Marianna >> include -->	
-	<!-- FOOTER SECTION -->
-	<!-- <section id="footer" class="visible-xs visible-sm footer">
-		<div class="container">
-				<div class="row">
-					<div class="col-xs-12 text-center text-muted">
-						<a href="http://facebook.com/autonovad" target="_blank"><i class="fa fa-facebook fa-icon" aria-hidden="true"></i>Мы в Facebook</a><br>
-						Copyright &copy; <a href="http://autonovad.ua" target="_blank">AutoNovaD</a>, 2016
-					</div>
-				</div>
-				<br>
-		</div> -->
-		<!-- /.container -->
-	<!-- </section>  -->
 
 	<!-- jQuery -->
 	<script src="../js/jquery.js"></script>
