@@ -342,12 +342,10 @@ a.panel-toggle{
 #wrap {
   min-height: 100%;
 }
-
 #main {
   overflow:auto;
   padding-bottom:110px;
 }
-
 .footer {
   position: relative;
   margin-top: -110px;

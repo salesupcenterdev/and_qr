@@ -267,29 +267,7 @@
 	
 	<!-- footer include -->
 	<?php include "footer.php" ?>
-
-	<!-- commit Marianna >> include -->
-	<!-- FOOTER SECTION -->
-<!-- 	<section>
-		<div class="container">
-			<footer>
-				<div class="row">
-					<div class="col-lg-4">
-						<i class="fa fa-phone fa-icon" aria-hidden="true"></i><a href="tel:+380441234455">(044) 123 44 55</a> <br>
-						<i class="fa fa-envelope fa-icon" aria-hidden="true"></i><a href="mailto:info@autonovad.com.ua">info@autonovad.com.ua</a> <br>
-						<i class="fa fa-map-marker fa-icon" aria-hidden="true"></i>Киев, ул. Улица, 123<br>
-					</div>
-					<div class="col-lg-4 text-center">
-						<i class="fa fa-facebook fa-icon" aria-hidden="true"></i>Мы в Facebook
-					</div>
-					<div class="col-lg-4 text-right">Copyright &copy; AutoNovaD 2016</div>
-				</div> -->
-				<!-- /.row -->
-			<!-- </footer>
-		</div> -->
-		<!-- /.container -->
-	<!-- </section> -->
-	<!-- /.section -->
+	
 
 	<!-- jQuery -->
 	<script src="js/jquery.js"></script>
