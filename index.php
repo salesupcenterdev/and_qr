@@ -190,26 +190,28 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="text-center"><div class="col-xs-12 col-sm-6 col-lg-3 img_news">
-							<img src="img/svg/news-1.png" alt="" class="icon">
-							<h4>Победители пятого розыгрыша отправляются в Запорожье</h4>
-							<button href="#" class="btn btn-default">Перейти к новости</button>
+						<div class="text-center">
+							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
+								<img src="img/svg/news-1.png" alt="" class="icon">
+								<h4>Победители пятого розыгрыша отправляются в Запорожье</h4>
+								<button href="#" class="btn btn-default">Перейти к новости</button>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
+								<img src="img/svg/news-3.png" alt="" class="icon">
+								<h4>OSSCA в Украине- это AutoNova-D</h4>
+								<button href="#" class="btn btn-default">Перейти к новости</button>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
+								<img src="img/svg/news-2.png" alt="" class="icon">
+								<h4>Расшифровка новой структуры артикула запчастей тм “DELLO Automega”</h4>
+								<button href="#" class="btn btn-default">Перейти к новости</button>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
+								<img src="img/svg/news-all.png" alt="" class="icon">
+								<h4>ВСЕ НОВОСТИ</h4>
+								<button href="#" class="btn btn-default">Перейти к новости</button>
+							</div>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
-							<img src="img/svg/news-3.png" alt="" class="icon">
-							<h4>OSSCA в Украине- это AutoNova-D</h4>
-							<button href="#" class="btn btn-default">Перейти к новости</button>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
-							<img src="img/svg/news-2.png" alt="" class="icon">
-							<h4>Расшифровка новой структуры артикула запчастей тм “DELLO Automega”</h4>
-							<button href="#" class="btn btn-default">Перейти к новости</button>
-						</div>
-						<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
-							<img src="img/svg/news-all.png" alt="" class="icon">
-							<h4>ВСЕ НОВОСТИ</h4>
-							<button href="#" class="btn btn-default">Перейти к новости</button>
-						</div></div>
 					</div>
 				</div>
 			</section>
