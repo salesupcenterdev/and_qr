@@ -39,7 +39,7 @@
 		<div id="main">
 
 	<!-- Full Width Image Header -->
-			<header class="header-image hidden-xs hidden-sm" style="background: url('../img/header3.jpg') no-repeat center center scroll;">
+			<header class="header-image hidden-xs hidden-sm" style="background: url('../img/header-evaq.jpg') no-repeat center center scroll;">
 				<div class="headline">
 					<div class="container">
 						<h1 class="title-start">Эвакуаторы Киева</h1>
@@ -64,58 +64,55 @@
 				<div class="container">
 					<div class="row">				
 						<dl class="services-list visible-xs visible-sm">
-							<dt class="services-list-item-title">Междугороднее эвакуатор IntercityTAXI</dt>
+							<dt class="services-list-item-title">Эвакуатор Киев</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380933635250">(093) 363-52-50</a><br>
+								<a href="tel: +380975161505">(097) 516-15-05</a><br>
 							</dd>
-							<dt class="services-list-item-title">Метиор эвакуатор</dt>
+							<dt class="services-list-item-title">АвтоЭвакуатор</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380443937393">(044) 393-73-93</a><br>
-								<a class="link-text" href="tel: +380446393333">(044) 639-33-33</a><br>
-								<a class="link-text" href="tel: +380986193333">(098) 619-33-33</a><br>
+								<a href="tel: +380440760808">(044) 076-08-08</a><br>
+								<a href="tel: +380960750808">(096) 075-08-08</a><br>
 							</dd>
-							<dt class="services-list-item-title">Джем-эвакуатор</dt>
+							<dt class="services-list-item-title">Эвакуатор</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380445028555">(044) 502-85-55</a><br>
-								<a class="link-text" href="tel: +380445028555">(044) 502-85-55</a><br>
-								<a class="link-text" href="tel: +380632717522">(063) 271-75-22</a><br>
+								<a href="tel: +380443619769">(044) 361-97-69</a><br>
+								<a href="tel: +380961881818">(096) 188-18-18</a><br>
 							</dd>
-							<dt class="services-list-item-title">эвакуатор Окей</dt>
+							<dt class="services-list-item-title">Экспресс Эвакуатор</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380443930303">(044) 393-03-03</a><br>
+								<a href="tel: +380443601515">(044) 360-15-15</a><br>
+								<a href="tel: +380632388282">(063) 238-82-82</a><br>
 							</dd>
-							<dt class="services-list-item-title">Радио эвакуатор Столица</dt>
+							<dt class="services-list-item-title">Служба эвакуации</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380442496249">(044) 249-62-49</a><br>
-								<a class="link-text" href="tel: +380933146249">(093) 314-62-49</a><br>
+								<a href="tel: +380442328970">(044) 232-89-70</a><br>
+								<a href="tel: +380635625627">(063) 562-56-27</a><br>
 							</dd>
-							<dt class="services-list-item-title">эвакуатор 5</dt>
+							<dt class="services-list-item-title">Служба технической помощи</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380443324224">(044) 332-42-24</a><br>
-								<a class="link-text" href="tel: +380444061856">(044) 406-18-56</a><br>
-								<a class="link-text" href="tel: +380933242525">(093) 324-25-25</a><br>
+								<a href="tel: +380442276564">(044) 227-65-64</a><br>
+								<a href="tel: +380972094742">(097) 209-47-42</a><br>
 							</dd>
-							<dt class="services-list-item-title">Лимузин эвакуатор</dt>
+							<dt class="services-list-item-title">СОС Сервис Украина</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380445020808">(044) 502-08-08</a><br>
-								<a class="link-text" href="tel: +380442073737">(044) 207-37-37</a><br>
-								<a class="link-text" href="tel: +380638141450">(063) 814-14-50</a><br>
+								<a href="tel: +380445377510">(044) 537-75-10</a><br>
 							</dd>
-							<dt class="services-list-item-title">Союз эвакуатор</dt>
+							<dt class="services-list-item-title">EvroSOService</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380444559555">(044) 455-95-55</a><br>
-								<a class="link-text" href="tel: +380444559555">(044) 455-95-55</a><br>
-								<a class="link-text" href="tel: +380993139555">(099) 313-95-55</a><br>
+								<a href="tel: +380443834747">(044) 383-47-47</a><br>
+								<a href="tel: +380447474747">(044) 747-47-47</a><br>
+								<a href="tel: +380933904747">(093) 390-47-47</a><br>
 							</dd>
-							<dt class="services-list-item-title">эвакуатор на Дубровку</dt>
+							<dt class="services-list-item-title">ЭкономЭвакуатор</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380442908808">(044) 290-88-08</a><br>
+								<a href="tel: +380442226770">(044) 222-67-70</a><br>
+								<a href="tel: +380936911414">(093) 691-14-14</a><br>
 							</dd>
-							<dt class="services-list-item-title">Бизнес-эвакуатор</dt>
+							<dt class="services-list-item-title">Киевтранспарксервис</dt>
 							<dd class="services-list-item-text">
-								<a class="link-text" href="tel: +380443312010">(044) 331-20-10</a><br>
-								<a class="link-text" href="tel: +380443052010">(044) 305-20-10</a><br>
-								<a class="link-text" href="tel: +380971202010">(097) 120-20-10</a><br>
+								<a href="tel: +380444680220">(044) 468-02-20</a><br>
+								<a href="tel: +380443614328">(044) 361-43-28</a><br>
+								<a href="tel: +380443624477">(044) 362-44-77</a><br>
 							</dd>
 						</dl>
 
@@ -124,10 +121,10 @@
 								<thead class="table-title">
 									<tr>
 										<td>Название служб эвакуаторов</td>
-										<td>Городской</td>
-										<td>Vodafone (МТС)</td>
-										<td>Київстар</td>
-										<td>Lifecell (Life:))</td>
+										<td><i class="mobo-home-16 icon-phone"></i>Городской</td>
+										<td><i class="mobo-mts-16"></i>Vodafone (МТС)</td>
+										<td><i class=mobo-kyivstar-16></i>Київстар</td>
+										<td><i class=mobo-lifecell-16></i>Lifecell (Life:))</td>
 									</tr>
 								</thead>
 								<tbody class="table-body">

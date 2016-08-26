@@ -38,7 +38,7 @@
 		<div id="main">
 
 		<!-- Full Width Image Header -->
-			<header class="header-image hidden-xs hidden-sm" style="background: url('../img/header4.jpg') no-repeat center center scroll;">
+			<header class="header-image hidden-xs hidden-sm" style="background: url('../img/header-taxi.jpg') no-repeat center center scroll;">
 				<div class="headline">
 					<div class="container">
 						<h1 class="title-start">Такси Киева</h1>
@@ -124,10 +124,10 @@
 								<thead class="table-title">
 									<tr>
 										<td>Название такси</td>
-										<td>Городской</td>
-										<td>Vodafone (МТС)</td>
-										<td>Київстар</td>
-										<td>Lifecell (Life:))</td>
+										<td><i class="mobo-home-16 icon-phone"></i>Городской</td>
+										<td><i class="mobo-mts-16"></i>Vodafone (МТС)</td>
+										<td><i class=mobo-kyivstar-16></i>Київстар</td>
+										<td><i class=mobo-lifecell-16></i>Lifecell (Life:))</td>
 									</tr>
 								</thead>
 								<tbody class="table-body">
