@@ -84,7 +84,7 @@
 				<div class="carousel-inner">					
 					<div class="item active">
 						<!-- Set the third background image using inline CSS below. -->
-						<a href="#"><div class="fill" style="background-image:url(img/header3.jpg);"></div></a>
+						<a href="#"><div class="fill" style="background-image:url(img/header-evaq.jpg);"></div></a>
 						<div class="carousel-caption">
 							<span class="title">Полный список эвакуаторов Киева</span><br>
 							<span class="caption">возможность сразу вызвать эвакуатор</span>
@@ -92,7 +92,7 @@
 					</div>
 					<div class="item">
 						<!-- Set the fourth background image using inline CSS below. -->
-						<a href="#"><div class="fill" style="background-image:url(img/header4.jpg);"></div></a>
+						<a href="#"><div class="fill" style="background-image:url(img/header-taxi.jpg);"></div></a>
 						<div class="carousel-caption">
 							<span class="title">Полный список такси Киева</span><br>
 							<span class="caption">возможность сразу вызвать такси</span>
@@ -159,12 +159,12 @@
 							<p class="text-content">Описание что можно сделать с разделами сервисов</p>
 						</div>
 						<div class="text-center">							
-							<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="col-xs-12 col-sm-6 col-lg-6">
 								<img src="img/svg/evaq.svg" alt="" class="icon">
 								<h3>Выбрать и вызвать эвакуатор</h3>
 								<button href="#" class="btn btn-default">Перейти к списку</button>
 							</div>
-							<div class="col-xs-12 col-sm-6 col-lg-3">
+							<div class="col-xs-12 col-sm-6 col-lg-6">
 								<img src="img/svg/taxi.svg" alt="" class="icon">
 								<h3 class="corect_padding">Выбрать и заказать такси</h3>
 								<button href="#" class="btn btn-default">Перейти к списку</button>
@@ -190,24 +190,24 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="text-center"><div class="col-xs-12 col-sm-6 col-lg-3">
+						<div class="text-center"><div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 							<img src="img/svg/news-1.png" alt="" class="icon">
-							<h3>Победители пятого розыгрыша отправляются в Запорожье</h3>
+							<h4>Победители пятого розыгрыша отправляются в Запорожье</h4>
 							<button href="#" class="btn btn-default">Перейти к новости</button>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-lg-3">
+						<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 							<img src="img/svg/news-3.png" alt="" class="icon">
-							<h3>OSSCA в Украине- это AutoNova-D</h3>
+							<h4>OSSCA в Украине- это AutoNova-D</h4>
 							<button href="#" class="btn btn-default">Перейти к новости</button>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-lg-3">
+						<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 							<img src="img/svg/news-2.png" alt="" class="icon">
-							<h3>Расшифровка новой структуры артикула запчастей тм “DELLO Automega”</h3>
+							<h4>Расшифровка новой структуры артикула запчастей тм “DELLO Automega”</h4>
 							<button href="#" class="btn btn-default">Перейти к новости</button>
 						</div>
-						<div class="col-xs-12 col-sm-6 col-lg-3">
-							<img src="img/svg/taxiold.svg" alt="" class="icon">
-							<h3>ВСЕ НОВОСТИ</h3>
+						<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
+							<img src="img/svg/news-all.png" alt="" class="icon">
+							<h4>ВСЕ НОВОСТИ</h4>
 							<button href="#" class="btn btn-default">Перейти к новости</button>
 						</div></div>
 					</div>

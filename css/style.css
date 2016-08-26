@@ -445,16 +445,11 @@ a.panel-toggle{
 	}
 	.title-start{
 		font-size: 48px;
+	}
+	.img_news {
+		padding-bottom: 20px;
 	}	
 
-}
-
-@media (min-width: 1200px) {
-
-/*servise index коректний відступ до кнопки*/
-	.corect_padding {
-		padding-bottom: 26px;
-	}
 }
 
 @media (max-width: 768px) { /* these styles will appear if screen less than 768px */
