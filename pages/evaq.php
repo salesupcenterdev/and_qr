@@ -210,11 +210,41 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12">
-							<h1 class="title-start">Свой вариант</h1>
-							<p class="text-content">Здесь будет текст</p>
+							<h1 class="title-start">Предложить свой вариант</h1>
+							<p class="text-content">Знаете хороших ребят, но не нашли их в нашем списке? Расскажите про них! Нажмите на кнопку “Предложить свой вариант” и мы внесем их в список.</p>
 						</div>
 						<div class="col-xs-12 text-center">
-							<a href="#" class="btn btn-xs-visible">Предложить эвакуатор</a>
+							<button type="button" class="btn btn-xs-visible" data-toggle="modal" data-target="#modal-user-variant">Предложить такси</button>
+
+							<div class="modal fade" id="modal-user-variant">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button class="close" type="button" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title">Cвой вариант</h4>
+										</div>
+										<div class="modal-body">
+											<form class="form-horizontal">
+												<div class="form-group">
+													<div class="col-sm-10">
+														<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="col-sm-10">
+														<textarea class="form-control" rows="3" placeholder="TEXT"></textarea>
+													</div>													
+												</div>											
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button class="btn btn-info" type="submit" data-dismiss="modal">Submit</button>
+											<button class="btn btn-danger" type="button" data-dismiss="modal">Exit</button>
+										</div>
+									</div>
+								</div>
+							</div> <!-- modal window  -->
+							
 						</div>
 					</div>
 				</div>
