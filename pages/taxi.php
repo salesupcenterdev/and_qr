@@ -226,34 +226,21 @@
 											<h3 class="modal-title">Предложить свой вариант</h3>
 										</div>
 										<!-- answer user -->
-												<div id="response" class="block_answer_user" style="display: none;">
-													<div class="error_user alert alert-danger">
-														<div class="modal-header">
-															
-															<h3 class="modal-title alert-heading">Возникла ошибка при отправке. Повторите попытку позже</h3>
-														</div>
-													</div>
-													<div class="success_user alert alert-success">
-														<div class="modal-header">
-															
-															<h3 class="modal-title alert-heading">Ваше предложение отправлено в обработку. Спасибо</h3>
-														</div>
-													</div>
-												</div>>
-													<div class="error_user alert alert-danger">
-														<div class="modal-header">
-															
-															<h3 class="modal-title alert-heading">Возникла ошибка при отправке. Повторите попытку позже</h3>
-														</div>
-													</div>
-													<div class="success_user alert alert-success">
-														<div class="modal-header">
-															
-															<h3 class="modal-title alert-heading">Ваше предложение отправлено в обработку. Спасибо</h3>
-														</div>
+											<div id="response" class="block_answer_user" style="display: none;">
+												<div class="error_user alert alert-danger">
+													<div class="modal-header">
+														
+														<h3 class="modal-title alert-heading">Возникла ошибка при отправке. Повторите попытку позже</h3>
 													</div>
 												</div>
-												<!-- answer user -->
+												<div class="success_user alert alert-success">
+													<div class="modal-header">
+														
+														<h3 class="modal-title alert-heading">Ваше предложение отправлено в обработку. Спасибо</h3>
+													</div>
+												</div>
+											</div>
+										<!-- answer user -->
 										<div class="modal-body">
 											<form class="form-horizontal">
 												<div class="form-group">
