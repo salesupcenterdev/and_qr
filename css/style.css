@@ -352,6 +352,7 @@ a.panel-toggle{
   height: 110px;
   clear:both;
   padding-top:20px;
+  margin-bottom: 0;
 } 
 /* footer bootom */
 
@@ -410,7 +411,30 @@ a.panel-toggle{
 
 /* end content, visible for sm and xs screen */
 
+/*news button > title */
+.img_news > h4 {
+    height: 80px;
+}
 
+/*modal window*/
+.btn-modal {
+    color: #00a9cf;    
+    text-transform: uppercase;    
+    background-color: transparent;
+    border: 6px solid #00bce7;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.btn-modal:hover {
+    color: #fff;
+    background-color: #00bce7;
+}
+.modal-phone {
+	/*width: 80%;*/
+}
+
+}
+/*end modal window*/
 
 /* PAGE CONTENT END */
 
@@ -435,7 +459,7 @@ a.panel-toggle{
 	.text-content{
 		padding:0 20px;
 	}
-	
+
 }
 
 
@@ -448,6 +472,10 @@ a.panel-toggle{
 	}
 	.img_news {
 		padding-bottom: 20px;
+	}
+	/*modal window section*/
+	.section-content.section-modal {
+		padding: 0;
 	}	
 
 }

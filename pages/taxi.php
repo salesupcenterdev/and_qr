@@ -41,8 +41,7 @@
 			<header class="header-image hidden-xs hidden-sm" style="background: url('../img/header-taxi.jpg') no-repeat center center scroll;">
 				<div class="headline">
 					<div class="container">
-						<h1 class="title-start">Такси Киева</h1>
-						<h2>Все такси Киева с вызовом к вашему местоположению</h2>
+						<h1 class="title-start">Такси Киева</h1>						
 					</div>
 				</div>
 			</header>
@@ -209,10 +208,10 @@
 			</section>
 			<!-- /.container -->
 
-			<section class="visible-xs visible-sm section-content">
+			<section class="visible-xs visible-sm visible-md visible-lg section-content section-modal">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-12">
+						<div class="col-xs-12 col-md-12 col-lg-12">
 							<h1 class="title-start">Предложить свой вариант</h1>
 							<p class="text-content">Знаете хороших ребят, но не нашли их в нашем списке? Расскажите про них! Нажмите на кнопку “Предложить свой вариант” и мы внесем их в список.</p>
 						</div>
@@ -224,25 +223,70 @@
 									<div class="modal-content">
 										<div class="modal-header">
 											<button class="close" type="button" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">Cвой вариант</h4>
+											<h3 class="modal-title">Предложить свой вариант</h3>
 										</div>
 										<div class="modal-body">
 											<form class="form-horizontal">
 												<div class="form-group">
-													<div class="col-sm-10">
-														<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+													<div class="col-sm-12 col-md-12">
+														<input type="email" class="form-control" id="inputEmail" name="userEmail" placeholder="Ваш email для связи">
 													</div>
 												</div>
 												<div class="form-group">
-													<div class="col-sm-10">
-														<textarea class="form-control" rows="3" placeholder="TEXT"></textarea>
-													</div>													
-												</div>											
+													<div class="col-sm-12 col-md-12">
+														<textarea class="form-control" rows="1" name="taxiName" placeholder="Название такси"></textarea>	
+													</div>						
+												</div>
+												<div class="form-group">					
+													<div class="col-sm-12 col-md-12">
+														<i class="mobo-home-16 icon-phone"></i>
+														<input type="number" class="form-control modal-phone" placeholder="Стационарный телефон" name="landline">
+													</div>
+												</div>
+												<div class="form-group">					
+													<div class="col-sm-12 col-md-12">
+														<i class="mobo-mts-16"></i>
+														<input type="number" class="form-control modal-phone" placeholder="Номер Vodafone" name="vodafone">
+													</div>
+												</div>
+												<div class="form-group">					
+													<div class="col-sm-12 col-md-12">
+														<i class="mobo-kyivstar-16"></i>
+														<input type="number" class="form-control modal-phone" placeholder="Номер Київстар" name="kyivstar">
+													</div>
+												</div>
+												<div class="form-group">					
+													<div class="col-sm-12 col-md-12">
+														<i class="mobo-lifecell-16"></i>
+														<input type="number" class="form-control modal-phone" placeholder="Номер Lifecell" name="lifecell">
+													</div>
+												</div>
+												<div class="form-group">
+													<div class="col-sm-12 col-md-12">
+														<textarea class="form-control" rows="3" name="userMessage" placeholder="Ваш комментарий"></textarea>	
+													</div>						
+												</div>
+
+												<!-- answer user -->
+												<div id="response" class="block_answer_user" style="display: none;">
+													<div class="error_user">
+														<div class="modal-header">
+															<button class="close" type="button" data-dismiss="modal">&times;</button>
+															<h3 class="modal-title">Возникла ошибка при отправке. Повторите попытку позже</h3>
+														</div>
+													</div>
+													<div class="success_user">
+														<div class="modal-header">
+															<button class="close" type="button" data-dismiss="modal">&times;</button>
+															<h3 class="modal-title">Ваше предложение отправлено в обработку. Спасибо</h3>
+														</div>
+													</div>
+												</div>
+												<!-- answer user -->
 											</form>
 										</div>
 										<div class="modal-footer">
-											<button class="btn btn-info" type="submit" data-dismiss="modal">Submit</button>
-											<button class="btn btn-danger" type="button" data-dismiss="modal">Exit</button>
+											<button class="btn btn-modal" type="submit" data-dismiss="modal">Submit</button>
 										</div>
 									</div>
 								</div>
