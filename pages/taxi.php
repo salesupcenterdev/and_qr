@@ -218,7 +218,7 @@
 			</section>
 			<!-- /.container -->
 
-			<section class="visible-xs visible-sm visible-md visible-lg section-content section-modal">
+			<section class="section-content section-modal">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-md-12 col-lg-12">
@@ -236,23 +236,12 @@
 											<h3 class="modal-title">Предложить свой вариант</h3>
 										</div>
 										<!-- answer user -->
-											<div id="response" class="block_answer_user" style="display: none;">
-												<div class="error_user alert alert-danger">
-													<div class="modal-header">
-														
-														<h3 class="modal-title alert-heading">Возникла ошибка при отправке. Повторите попытку позже</h3>
-													</div>
-												</div>
-												<div class="success_user alert alert-success">
-													<div class="modal-header">
-														
-														<h3 class="modal-title alert-heading">Ваше предложение отправлено в обработку. Спасибо</h3>
-													</div>
-												</div>
-											</div>
+										<div id="response" class="block_answer_user">
+
+										</div>
 										<!-- answer user -->
 										<div class="modal-body">
-											<form class="form-horizontal">
+											<form class="form-horizontal" id="senderMail">
 												<div class="form-group">
 													<div class="col-sm-12 col-md-12">
 														<input type="email" class="form-control" id="inputEmail" name="userEmail" placeholder="Ваш email для связи *">
@@ -260,7 +249,7 @@
 												</div>
 												<div class="form-group">
 													<div class="col-sm-12 col-md-12">
-														<textarea class="form-control" rows="1" name="taxiName" placeholder="Название такси *"></textarea>	
+														<textarea class="form-control" rows="1" name="addName" placeholder="Название такси *"></textarea>	
 													</div>						
 												</div>
 												<div class="form-group">					
@@ -268,18 +257,19 @@
 														<textarea class="form-control" rows="3" name="landline" placeholder="Номер телефона в формате +38(0XX) XXX-XX-XX *"></textarea>
 													</div>
 												</div>
-												
+
 												<div class="form-group">
 													<div class="col-sm-12 col-md-12">
 														<textarea class="form-control" rows="3" name="userMessage" placeholder="Ваш комментарий"></textarea>	
 													</div>						
-												</div>									
+												</div>	
+												<input type="hidden" name="typeData" value="такси">
 											</form>
 											<hr>
 											<p>* Поля обезательные для заполнения</p>
 										</div>
 										<div class="modal-footer">
-											<button class="btn btn-modal" type="submit" data-dismiss="modal">Submit</button>
+											<button class="btn btn-modal" type="submit" data-dismiss="modal" id="send" >Submit</button>
 										</div>
 									</div>
 								</div>
@@ -302,6 +292,10 @@
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="../js/bootstrap.min.js"></script>
+
+	<!-- sender modal window -->
+	<script type="text/javascript" src="../js/sender.js"></script>
+
 </body>
 
 </html>

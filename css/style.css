@@ -344,12 +344,12 @@ a.panel-toggle{
 }
 #main {
   overflow:auto;
-  padding-bottom:110px;
+  padding-bottom:75px;
 }
 .footer {
   position: relative;
-  margin-top: -110px;
-  height: 110px;
+  margin-top: -75px;
+  height: 75px;
   clear:both;
   padding-top:20px;
   margin-bottom: 0;
@@ -551,4 +551,22 @@ a.panel-toggle{
 /*table*/
 .complain-link {
 	color: #a94442;
+	font-size: 14px;
+    opacity: 0.4;
+}
+.complain-link:hover {
+	opacity: 1;
+	color: #a94442;
+	text-decoration: none;
+}
+.complain-link:focus {
+	text-decoration: none;
+	color: #a94442;
+	opacity: 1;
+}
+dt > .complain-link {
+	float: right;
+}
+span.glyphicon.glyphicon-warning-sign {
+    padding: 0 5px;
 }

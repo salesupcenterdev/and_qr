@@ -249,6 +249,9 @@
 	<!-- custom script -->
 	<script type="text/javascript" src="js/script.js"></script>
 
+	<!-- sender modal window -->
+	<script type="text/javascript" src="js/sender.js"></script>
+
 	<!-- збір статистики -->
 	<script type="text/javascript" src="js/scriptlandcc.js"></script>
 
