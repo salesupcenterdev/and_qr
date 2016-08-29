@@ -268,7 +268,7 @@
 												</div>
 												<div class="form-group">					
 													<div class="col-sm-12 col-md-12">		
-														<textarea class="form-control" rows="3" name="landline" placeholder="Номер телефона *"></textarea>
+														<textarea class="form-control" rows="3" name="landline" placeholder="Номер телефона в формате +38(0XX) XXX-XX-XX *"></textarea>
 													</div>
 												</div>
 												
