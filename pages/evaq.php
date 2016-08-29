@@ -222,65 +222,48 @@
 											<button class="close" type="button" data-dismiss="modal">&times;</button>
 											<h3 class="modal-title">Предложить свой вариант</h3>
 										</div>
-																				<div class="modal-body">
+										<!-- answer user -->
+											<div id="response" class="block_answer_user" style="display: none;">
+												<div class="error_user alert alert-danger">
+													<div class="modal-header">
+														
+														<h3 class="modal-title alert-heading">Возникла ошибка при отправке. Повторите попытку позже</h3>
+													</div>
+												</div>
+												<div class="success_user alert alert-success">
+													<div class="modal-header">
+														
+														<h3 class="modal-title alert-heading">Ваше предложение отправлено в обработку. Спасибо</h3>
+													</div>
+												</div>
+											</div>
+										<!-- answer user -->
+									<div class="modal-body">
 											<form class="form-horizontal">
 												<div class="form-group">
 													<div class="col-sm-12 col-md-12">
-														<input type="email" class="form-control" id="inputEmail" name="userEmail" placeholder="Ваш email для связи">
+														<input type="email" class="form-control" id="inputEmail" name="userEmail" placeholder="Ваш email для связи *">
 													</div>
 												</div>
 												<div class="form-group">
 													<div class="col-sm-12 col-md-12">
-														<textarea class="form-control" rows="1" name="taxiName" placeholder="Название такси"></textarea>	
+														<textarea class="form-control" rows="1" name="taxiName" placeholder="Название служб эвакуатора *"></textarea>	
 													</div>						
 												</div>
 												<div class="form-group">					
-													<div class="col-sm-12 col-md-12">
-														<i class="mobo-home-16 icon-phone"></i>
-														<input type="number" class="form-control modal-phone" placeholder="Стационарный телефон" name="landline">
+													<div class="col-sm-12 col-md-12">		
+														<textarea class="form-control" rows="3" name="landline" placeholder="Номер телефона *"></textarea>
 													</div>
 												</div>
-												<div class="form-group">					
-													<div class="col-sm-12 col-md-12">
-														<i class="mobo-mts-16"></i>
-														<input type="number" class="form-control modal-phone" placeholder="Номер Vodafone" name="vodafone">
-													</div>
-												</div>
-												<div class="form-group">					
-													<div class="col-sm-12 col-md-12">
-														<i class="mobo-kyivstar-16"></i>
-														<input type="number" class="form-control modal-phone" placeholder="Номер Київстар" name="kyivstar">
-													</div>
-												</div>
-												<div class="form-group">					
-													<div class="col-sm-12 col-md-12">
-														<i class="mobo-lifecell-16"></i>
-														<input type="number" class="form-control modal-phone" placeholder="Номер Lifecell" name="lifecell">
-													</div>
-												</div>
+												
 												<div class="form-group">
 													<div class="col-sm-12 col-md-12">
 														<textarea class="form-control" rows="3" name="userMessage" placeholder="Ваш комментарий"></textarea>	
 													</div>						
-												</div>
-
-												<!-- answer user -->
-												<div id="response" class="block_answer_user" style="display: none;">
-													<div class="error_user">
-														<div class="modal-header">
-															<button class="close" type="button" data-dismiss="modal">&times;</button>
-															<h3 class="modal-title">Возникла ошибка при отправке. Повторите попытку позже</h3>
-														</div>
-													</div>
-													<div class="success_user">
-														<div class="modal-header">
-															<button class="close" type="button" data-dismiss="modal">&times;</button>
-															<h3 class="modal-title">Ваше предложение отправлено в обработку. Спасибо</h3>
-														</div>
-													</div>
-												</div>
-												<!-- answer user -->
+												</div>									
 											</form>
+											<hr>
+											<p>* Поля обезательные для заполнения</p>
 										</div>
 										<div class="modal-footer">
 											<button class="btn btn-modal" type="submit" data-dismiss="modal">Submit</button>
