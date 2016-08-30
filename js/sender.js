@@ -24,13 +24,8 @@
                                 }
                             });   
                         } else {                           
-                           $.ajax({
-                                url: "",
-                                context: document.body,
-                                success: function(s,x){
-                                    $(this).html(s);
-                                }
-                            });
+                            window.location.reload();
+                            location.reload();
                         }
                     });                     
                 });      
