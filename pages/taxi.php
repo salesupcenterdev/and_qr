@@ -214,21 +214,21 @@
 							</table>
 						</div>
 					</div>
-				</div>                            
-                            
-                            <div class="modal fade" id="complainModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
-                                <div class="modal-dialog" role="document">
-                                  <div class="modal-content">
-                                    <div class="modal-body">
+				</div>
+				
+				<div class="modal fade" id="complainModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+					<div class="modal-dialog" role="document">
+					  <div class="modal-content">
+						<div class="modal-body">
 
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Выйти</button>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-                            
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Выйти</button>
+						</div>
+					  </div>
+					</div>
+				</div>
+							
 			</section>
 			<!-- /.container -->
 
