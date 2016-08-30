@@ -7,23 +7,30 @@
                             event.preventDefault();
                             $.ajax({
                                 type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
-                                url         : './../sender.php', // the url where we want to POST
+                                url         : './../php/sender.php', // the url where we want to POST
                                 data        : $("#senderMail").serialize(),
-                                success: function(data) {                       
+                                success: function(data) { 
                                     $('#response').html(data);                                 
                                     $('#modal-user-variant').modal('show');
+                                    $('.modal-body').hide();
                                     $('#send').text('выйти');                                 
                                     $('#send').data('send', 0);    
                                 },
-                                error: function(error) {        
+                                error: function(error) {    
+                                      console.log(error);
                                     $('#send').data('send', 1);  
                                     $('#response').html(error);                                  
                                     $('#modal-user-variant').modal('show');
                                 }
                             });   
-                        } else {
-                            $('body').removeClass('modal-open');
-                            $('.modal-backdrop').remove();
+                        } else {                           
+                           $.ajax({
+                                url: "",
+                                context: document.body,
+                                success: function(s,x){
+                                    $(this).html(s);
+                                }
+                            });
                         }
                     });                     
                 });      
