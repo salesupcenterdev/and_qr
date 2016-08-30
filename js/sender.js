@@ -1,6 +1,4 @@
- $(document).ready(                      
-                function(){
-                     
+$(document).ready( function(){                     
                     $('#send').data('send', 1);  
                     $('#send').on('click', function(event) {  
                         if( $('#send').data('send') == 1 ) {
@@ -27,5 +25,23 @@
                             window.location.reload();
                             location.reload();
                         }
-                    });                     
+                    });
+                    
+                    $(".complain-link").on('click', function(){
+                        var idser = $(this).attr("id");
+                        var nameserv = $(this).attr("data-name");
+                        $.ajax({
+                                type        : 'POST', // define the type of HTTP verb we want to use (POST for our form)
+                                url         : './../php/sender.php', // the url where we want to POST
+                                data        : { id : idser, name: nameserv},
+                                success: function(data) {
+                                    $('#complainModal').modal();
+                                    $('#complainModal div.modal-body').html(data);
+                                },
+                                error: function(error) {    
+                                    $('#complainModal').modal();
+                                    $('#complainModal div.modal-body').html(error);                                    
+                                }
+                            });   
+                    });
                 });      

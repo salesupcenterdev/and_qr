@@ -200,7 +200,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td>n/a</td>
-										<td><a href="#" id="dubrovkaTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><span id="dubrovkaTaxi" class="complain-link" data-name="Такси на Дубровку"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</span></td>                                                                                
 									</tr>
 									<tr>
 										<td>Бизнес-такси</td>
@@ -214,7 +214,21 @@
 							</table>
 						</div>
 					</div>
-				</div>
+				</div>                            
+                            
+                            <div class="modal fade" id="complainModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <div class="modal-body">
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Выйти</button>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            
 			</section>
 			<!-- /.container -->
 
@@ -267,7 +281,7 @@
 												<input type="hidden" name="typeData" value="такси">
 											</form>
 											<hr>
-											<p>* Поля обезательные для заполнения</p>
+											<p>* Поля обязательные для заполнения</p>
 										</div>
 										<div class="modal-footer">
 											<button class="btn btn-modal" type="submit" data-dismiss="modal" id="send" >Submit</button>
