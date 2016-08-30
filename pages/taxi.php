@@ -220,7 +220,7 @@
 
 			<section class="section-content section-modal">
 				<div class="container">
-					<div class="row">
+					<div class="row" id="addService">
 						<div class="col-xs-12 col-md-12 col-lg-12">
 							<h1 class="title-start">Предложить свой вариант</h1>
 							<p class="text-content">Знаете хороших ребят, но не нашли их в нашем списке? Расскажите про них! Нажмите на кнопку “Предложить свой вариант” и мы внесем их в список.</p>
