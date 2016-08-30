@@ -63,51 +63,51 @@
 				<div class="container">
 					<div class="row">				
 						<dl class="services-list visible-xs visible-sm">
-							<dt class="services-list-item-title">Эвакуатор Киев <a href="#" id="evaqKiev" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>							
+							<dt class="services-list-item-title">Эвакуатор Киев <a href="#" id="evaqKiev" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>							
 							<dd class="services-list-item-text">
 								<a href="tel: +380975161505">(097) 516-15-05</a><br>
 							</dd>
-							<dt class="services-list-item-title">АвтоЭвакуатор <a href="#" id="evaqAuto" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">АвтоЭвакуатор <a href="#" id="evaqAuto" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380440760808">(044) 076-08-08</a><br>
 								<a href="tel: +380960750808">(096) 075-08-08</a><br>
 							</dd>
-							<dt class="services-list-item-title">Эвакуатор <a href="#" id="evaquatorK" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">Эвакуатор <a href="#" id="evaquatorK" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380443619769">(044) 361-97-69</a><br>
 								<a href="tel: +380961881818">(096) 188-18-18</a><br>
 							</dd>
-							<dt class="services-list-item-title">Экспресс Эвакуатор <a href="#" id="evaqExpress" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">Экспресс Эвакуатор <a href="#" id="evaqExpress" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380443601515">(044) 360-15-15</a><br>
 								<a href="tel: +380632388282">(063) 238-82-82</a><br>
 							</dd>
-							<dt class="services-list-item-title">Служба эвакуации <a href="#" id="evaqService" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">Служба эвакуации <a href="#" id="evaqService" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380442328970">(044) 232-89-70</a><br>
 								<a href="tel: +380635625627">(063) 562-56-27</a><br>
 							</dd>
-							<dt class="services-list-item-title">Служба технической помощи <a href="#" id="evaqtech" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">Служба технической помощи <a href="#" id="evaqtech" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380442276564">(044) 227-65-64</a><br>
 								<a href="tel: +380972094742">(097) 209-47-42</a><br>
 							</dd>
-							<dt class="services-list-item-title">СОС Сервис Украина <a href="#" id="evaqsos" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">СОС Сервис Украина <a href="#" id="evaqsos" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380445377510">(044) 537-75-10</a><br>
 							</dd>
-							<dt class="services-list-item-title">EvroSOService <a href="#" id="EvroSOService" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">EvroSOService <a href="#" id="EvroSOService" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380443834747">(044) 383-47-47</a><br>
 								<a href="tel: +380447474747">(044) 747-47-47</a><br>
 								<a href="tel: +380933904747">(093) 390-47-47</a><br>
 							</dd>
-							<dt class="services-list-item-title">ЭкономЭвакуатор <a href="#" id="evaqEconom" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">ЭкономЭвакуатор <a href="#" id="evaqEconom" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380442226770">(044) 222-67-70</a><br>
 								<a href="tel: +380936911414">(093) 691-14-14</a><br>
 							</dd>
-							<dt class="services-list-item-title">Киевтранспарксервис <a href="#" id="kievtransparkservis" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">Киевтранспарксервис <a href="#" id="kievtransparkservis" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380444680220">(044) 468-02-20</a><br>
 								<a href="tel: +380443614328">(044) 361-43-28</a><br>
@@ -133,7 +133,7 @@
 										<td>n/a</td>
 										<td><a href="tel: +380975161505">(097) 516-15-05</a></td>
 										<td>n/a</td>
-										<td><a href="#" id="evaqKiev" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="evaqKiev" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>АвтоЭвакуатор</td>
@@ -141,7 +141,7 @@
 										<td>n/a</td>
 										<td><a href="tel: +380960750808">(096) 075-08-08</a></td>
 										<td>n/a</td>
-										<td><a href="#" id="evaqAuto" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="evaqAuto" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Эвакуатор</td>
@@ -149,7 +149,7 @@
 										<td>n/a</td>
 										<td><a href="tel: +380961881818">(096) 188-18-18</a></td>
 										<td>n/a</td>
-										<td><a href="#" id="evaquatorK" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="evaquatorK" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Экспресс Эвакуатор</td>
@@ -157,7 +157,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel: +380632388282">(063) 238-82-82</a></td>
-										<td><a href="#" id="evaqExpress" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="evaqExpress" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Служба эвакуации</td>
@@ -165,7 +165,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel: +380635625627">(063) 562-56-27</a></td>
-										<td><a href="#" id="evaqService" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="evaqService" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Служба технической помощи</td>
@@ -173,7 +173,7 @@
 										<td>n/a</td>
 										<td><a href="tel: +380972094742">(097) 209-47-42</a></td>
 										<td>n/a</td>
-										<td><a href="#" id="evaqtech" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="evaqtech" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>СОС Сервис Украина</td>
@@ -181,7 +181,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td>n/a</td>
-										<td><a href="#" id="evaqsos" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="evaqsos" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>EvroSOService</td>
@@ -192,7 +192,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel: +380933904747">(093) 390-47-47</a></td>
-										<td><a href="#" id="EvroSOService" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="EvroSOService" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>ЭкономЭвакуатор</td>
@@ -200,7 +200,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel: +380936911414">(093) 691-14-14</a></td>
-										<td><a href="#" id="evaqEconom" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="evaqEconom" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Киевтранспарксервис</td>
@@ -212,7 +212,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td>n/a</td>
-										<td><a href="#" id="kievtransparkservis" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
+										<td><a href="#" id="kievtransparkservis" class="complain-link" data-toggle="modal" data-target="#modal-user-complain"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -221,6 +221,57 @@
 				</div>
 			</section>
 			<!-- /.container -->
+
+
+
+<!-- form Complain -->
+
+			<div class="modal fade" id="modal-user-complain">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button class="close" type="button" data-dismiss="modal">&times;</button>
+											<h3 class="modal-title">Пожаловаться</h3>
+										</div>
+										<!-- answer user -->
+										<div id="response" class="block_answer_user">
+
+										</div>
+										<!-- answer user -->
+										<div class="modal-body">
+											<form class="form-horizontal" id="senderMail">
+												<div class="form-group">
+													<div class="col-sm-12 col-md-12">
+														<input type="email" class="form-control" id="inputEmail" name="userEmail" placeholder="Ваш email для связи *">
+													</div>
+												</div>
+												
+												<div class="form-group">					
+													<div class="col-sm-12 col-md-12">		
+														<textarea class="form-control" rows="3" name="landline" placeholder="Номер телефона в формате +38(0XX) XXX-XX-XX *"></textarea>
+													</div>
+												</div>
+
+												<div class="form-group">
+													<div class="col-sm-12 col-md-12">
+														<textarea class="form-control" rows="3" name="userMessage" placeholder="Ваш комментарий"></textarea>	
+													</div>						
+												</div>	
+												<input type="hidden" name="typeData" value="эвакуатор">
+											</form>
+											<hr>
+											<p>* Поля обезательные для заполнения</p>
+										</div>
+										<div class="modal-footer">
+											<button class="btn btn-modal" type="submit" data-dismiss="modal" id="send" >Submit</button>
+										</div>
+									</div>
+								</div>
+							</div> <!-- modal window  -->
+			<!-- end form Complain -->
+
+
+
 
 			<section class="section-content section-modal">
 				<div class="container">

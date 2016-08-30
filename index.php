@@ -84,7 +84,7 @@
 				<div class="carousel-inner">					
 					<div class="item active">
 						<!-- Set the third background image using inline CSS below. -->
-						<a href="#"><div class="fill" style="background-image:url(img/header-evaq.jpg);"></div></a>
+						<a href="pages/evaq.php"><div class="fill" style="background-image:url(img/header-evaq.jpg);"></div></a>
 						<div class="carousel-caption">
 							<span class="title">Полный список эвакуаторов Киева</span><br>
 							<span class="caption">возможность сразу вызвать эвакуатор</span>
@@ -92,7 +92,7 @@
 					</div>
 					<div class="item">
 						<!-- Set the fourth background image using inline CSS below. -->
-						<a href="#"><div class="fill" style="background-image:url(img/header-taxi.jpg);"></div></a>
+						<a href="pages/taxi.php"><div class="fill" style="background-image:url(img/header-taxi.jpg);"></div></a>
 						<div class="carousel-caption">
 							<span class="title">Полный список такси Киева</span><br>
 							<span class="caption">возможность сразу вызвать такси</span>
@@ -119,10 +119,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 text-center">
-							<a href="taxi.html" class="btn btn-xs-visible">Выбрать и вызвать <br>такси</a>
+							<a href="pages/taxi.php" class="btn btn-xs-visible">Выбрать и вызвать <br>такси</a>
 						</div>
 						<div class="col-xs-12 col-sm-6 text-center">
-							<a href="#" class="btn btn-xs-visible">Выбрать и вызвать <br>эвакуатор</a>
+							<a href="pages/evaq.php" class="btn btn-xs-visible">Выбрать и вызвать <br>эвакуатор</a>
 						</div>
 					</div>					
 				</div>
@@ -163,12 +163,12 @@
 							<div class="col-xs-12 col-sm-6 col-lg-6">
 								<img src="img/svg/evaq.svg" alt="" class="icon">
 								<h3>Выбрать и вызвать эвакуатор</h3>
-								<button href="#" class="btn btn-default">Перейти к списку</button>
+								<button href="pages/evaq.php" class="btn btn-default" onclick="window.location.href='pages/evaq.php'; return false;">Перейти к списку</button>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-lg-6">
 								<img src="img/svg/taxi.svg" alt="" class="icon">
 								<h3 class="corect_padding">Выбрать и заказать такси</h3>
-								<button href="#" class="btn btn-default">Перейти к списку</button>
+								<button href="pages/taxi.php" class="btn btn-default" onclick="window.location.href='pages/taxi.php'; return false;">Перейти к списку</button>
 							</div>
 						</div>
 					</div>
@@ -195,22 +195,22 @@
 							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 								<img src="img/svg/news-1.png" alt="" class="icon">
 								<h4>Победители пятого розыгрыша отправляются в Запорожье</h4>
-								<button href="#" class="btn btn-default">Перейти к новости</button>
+								<button href="http://autonovad.ua/index.html?id=news&nid=207" class="btn btn-default" onclick="window.location.href='http://autonovad.ua/index.html?id=news&nid=207'; return false;">Перейти к новости</button>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 								<img src="img/svg/news-3.png" alt="" class="icon">
 								<h4>OSSCA в Украине- это AutoNova-D</h4>
-								<button href="#" class="btn btn-default">Перейти к новости</button>
+								<button href="http://autonovad.ua/index.html?id=news&nid=206" class="btn btn-default" onclick="window.location.href='http://autonovad.ua/index.html?id=news&nid=206'; return false;">Перейти к новости</button>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 								<img src="img/svg/news-2.png" alt="" class="icon">
 								<h4>Расшифровка новой структуры артикула запчастей тм “DELLO Automega”</h4>
-								<button href="#" class="btn btn-default">Перейти к новости</button>
+								<button href="http://autonovad.ua/index.html?id=news&nid=205" class="btn btn-default" onclick="window.location.href='http://autonovad.ua/index.html?id=news&nid=205'; return false;">Перейти к новости</button>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 								<img src="img/svg/news-all.png" alt="" class="icon">
 								<h4>ВСЕ НОВОСТИ</h4>
-								<button href="#" class="btn btn-default">Перейти к новости</button>
+								<button href="http://autonovad.ua/index.html?id=news&all=1" class="btn btn-default" onclick="window.location.href='http://autonovad.ua/index.html?id=news&all=1'; return false;">Перейти к новости</button>
 							</div>
 						</div>
 					</div>
@@ -248,9 +248,6 @@
 
 	<!-- custom script -->
 	<script type="text/javascript" src="js/script.js"></script>
-
-	<!-- sender modal window -->
-	<script type="text/javascript" src="js/sender.js"></script>
 
 	<!-- збір статистики -->
 	<script type="text/javascript" src="js/scriptlandcc.js"></script>

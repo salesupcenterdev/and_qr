@@ -563,6 +563,7 @@ a.panel-toggle{
 	text-decoration: none;
 	color: #a94442;
 	opacity: 1;
+    outline: none;
 }
 dt > .complain-link {
 	float: right;
