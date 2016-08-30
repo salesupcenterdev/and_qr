@@ -63,54 +63,54 @@
 				<div class="container">
 					<div class="row">				
 						<dl class="services-list visible-xs visible-sm">
-							<dt class="services-list-item-title">Междугороднее такси IntercityTAXI</dt>
+							<dt class="services-list-item-title">Междугороднее такси IntercityTAXI<a href="#" id="IntercityTAXI" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380933635250">(093) 363-52-50</a><br>
 							</dd>
-							<dt class="services-list-item-title">Метиор такси</dt>
+							<dt class="services-list-item-title">Метиор такси<a href="#" id="meteorTaxi" class="complain-link" ><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380443937393">(044) 393-73-93</a><br>
 								<a class="link-text" href="tel: +380446393333">(044) 639-33-33</a><br>
 								<a class="link-text" href="tel: +380986193333">(098) 619-33-33</a><br>
 							</dd>
-							<dt class="services-list-item-title">Джем-такси</dt>
+							<dt class="services-list-item-title">Джем-такси<a href="#" id="jamTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380445028555">(044) 502-85-55</a><br>
 								<a class="link-text" href="tel: +380445028555">(044) 502-85-55</a><br>
 								<a class="link-text" href="tel: +380632717522">(063) 271-75-22</a><br>
 							</dd>
-							<dt class="services-list-item-title">Такси Окей</dt>
+							<dt class="services-list-item-title">Такси Окей<a href="#" id="OkTaxi" class="complain-link" ><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380443930303">(044) 393-03-03</a><br>
 							</dd>
-							<dt class="services-list-item-title">Радио Такси Столица</dt>
+							<dt class="services-list-item-title">Радио Такси Столица<a href="#" id="radioTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380442496249">(044) 249-62-49</a><br>
 								<a class="link-text" href="tel: +380933146249">(093) 314-62-49</a><br>
 							</dd>
-							<dt class="services-list-item-title">Такси 5</dt>
+							<dt class="services-list-item-title">Такси 5<a href="#" id="taxi5" class="complain-link" ><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380443324224">(044) 332-42-24</a><br>
 								<a class="link-text" href="tel: +380444061856">(044) 406-18-56</a><br>
 								<a class="link-text" href="tel: +380933242525">(093) 324-25-25</a><br>
 							</dd>
-							<dt class="services-list-item-title">Лимузин такси</dt>
+							<dt class="services-list-item-title">Лимузин такси<a href="#" id="limousineTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380445020808">(044) 502-08-08</a><br>
 								<a class="link-text" href="tel: +380442073737">(044) 207-37-37</a><br>
 								<a class="link-text" href="tel: +380638141450">(063) 814-14-50</a><br>
 							</dd>
-							<dt class="services-list-item-title">Союз такси</dt>
+							<dt class="services-list-item-title">Союз такси<a href="#" id="unionTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380444559555">(044) 455-95-55</a><br>
 								<a class="link-text" href="tel: +380444559555">(044) 455-95-55</a><br>
 								<a class="link-text" href="tel: +380993139555">(099) 313-95-55</a><br>
 							</dd>
-							<dt class="services-list-item-title">Такси на Дубровку</dt>
+							<dt class="services-list-item-title">Такси на Дубровку<a href="#" id="dubrovkaTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380442908808">(044) 290-88-08</a><br>
 							</dd>
-							<dt class="services-list-item-title">Бизнес-такси</dt>
+							<dt class="services-list-item-title">Бизнес-такси<a href="#" id="businessTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a class="link-text" href="tel: +380443312010">(044) 331-20-10</a><br>
 								<a class="link-text" href="tel: +380443052010">(044) 305-20-10</a><br>
@@ -136,7 +136,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel:+380933635250">(093) 363-52-50</a></td>
-										<td><a href="#" id="IntercityTAXI" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="IntercityTAXI" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Метиор такси</td>
@@ -144,7 +144,7 @@
 										<td>n/a</td>
 										<td><a href="tel:+380986193333">(098) 619-33-33</a></td>
 										<td>n/a</td>
-										<td><a href="#" id="meteorTaxi" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="meteorTaxi" class="complain-link"  ><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Джем-такси</td>
@@ -152,7 +152,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel:+380632717522">(063) 271-75-22</a></td>
-										<td><a href="#" id="jamTaxi" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="jamTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Такси Окей</td>
@@ -160,7 +160,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td>n/a</td>
-										<td><a href="#" id="OkTaxi" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="OkTaxi" class="complain-link"  ><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Радио Такси Столица</td>
@@ -168,7 +168,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel:+380933146249">(093) 314-62-49</a></td>
-										<td><a href="#" id="radioTaxi" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="radioTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Такси 5</td>
@@ -176,7 +176,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel:+380933242525">(093) 324-25-25</a></td>
-										<td><a href="#" id="taxi5" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="taxi5" class="complain-link"  ><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Лимузин такси</td>
@@ -184,7 +184,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td><a href="tel:+380638141450">(063) 814-14-50</a></td>
-										<td><a href="#" id="limousineTaxi" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="limousineTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Союз такси</td>
@@ -192,7 +192,7 @@
 										<td><a href="tel:+380993139555">(099) 313-95-55</a></td>
 										<td>n/a</td>
 										<td>n/a</td>
-										<td><a href="#" id="unionTaxi" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="unionTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Такси на Дубровку</td>
@@ -200,7 +200,7 @@
 										<td>n/a</td>
 										<td>n/a</td>
 										<td>n/a</td>
-										<td><a href="#" id="dubrovkaTaxi" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="dubrovkaTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 									<tr>
 										<td>Бизнес-такси</td>
@@ -208,7 +208,7 @@
 										<td>n/a</td>
 										<td><a href="tel:+380971202010">(097) 120-20-10</a></td>
 										<td>n/a</td>
-										<td><a href="#" id="businessTaxi" class="complain-link">Пожаловаться</a></td>
+										<td><a href="#" id="businessTaxi" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></td>
 									</tr>
 								</tbody>
 							</table>
@@ -218,6 +218,7 @@
 			</section>
 			<!-- /.container -->
 
+	
 			<section class="section-content section-modal">
 				<div class="container">
 					<div class="row" id="addService">

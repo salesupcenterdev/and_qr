@@ -107,7 +107,7 @@
 								<a href="tel: +380442226770">(044) 222-67-70</a><br>
 								<a href="tel: +380936911414">(093) 691-14-14</a><br>
 							</dd>
-							<dt class="services-list-item-title">Киевтранспарксервис <a href="#" id="kievtransparkservis" class="complain-link"><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
+							<dt class="services-list-item-title">Киевтранспарксервис <a href="#" id="kievtransparkservis" class="complain-link"  ><span class="glyphicon glyphicon-warning-sign"></span>Пожаловаться</a></dt>
 							<dd class="services-list-item-text">
 								<a href="tel: +380444680220">(044) 468-02-20</a><br>
 								<a href="tel: +380443614328">(044) 361-43-28</a><br>

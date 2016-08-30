@@ -563,10 +563,33 @@ a.panel-toggle{
 	text-decoration: none;
 	color: #a94442;
 	opacity: 1;
+    outline: none;
 }
 dt > .complain-link {
 	float: right;
 }
 span.glyphicon.glyphicon-warning-sign {
     padding: 0 5px;
+}
+
+
+/*btn for lg*/
+a.btn-lg-visible {
+	color: #00a9cf;
+    font-size: 16px;
+    background-color: transparent;
+    border: 4px solid #00bce7;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-appearance: initial;
+}
+a.btn-lg-visible:hover {
+    color: #fff;
+    background-color: #00bce7;
+    border: 4px solid #00bce7;
+}
+a.btn-lg-visible:focus {
+    color: #fff;
+    background-color: #00bce7;
+    border: 4px solid #00bce7;
 }
