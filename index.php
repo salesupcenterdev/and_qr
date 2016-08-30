@@ -163,12 +163,12 @@
 							<div class="col-xs-12 col-sm-6 col-lg-6">
 								<img src="img/svg/evaq.svg" alt="" class="icon">
 								<h3>Выбрать и вызвать эвакуатор</h3>
-								<button href="pages/evaq.php" class="btn btn-default" onclick="window.location.href='pages/evaq.php'; return false;">Перейти к списку</button>
+								<a type="button" href="pages/evaq.php" class="btn btn-lg-visible">Перейти к списку</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-lg-6">
 								<img src="img/svg/taxi.svg" alt="" class="icon">
 								<h3 class="corect_padding">Выбрать и заказать такси</h3>
-								<button href="pages/taxi.php" class="btn btn-default" onclick="window.location.href='pages/taxi.php'; return false;">Перейти к списку</button>
+								<a href="pages/taxi.php" class="btn btn-lg-visible">Перейти к списку</a>
 							</div>
 						</div>
 					</div>
@@ -195,22 +195,22 @@
 							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 								<img src="img/svg/news-1.png" alt="" class="icon">
 								<h4>Победители пятого розыгрыша отправляются в Запорожье</h4>
-								<button href="http://autonovad.ua/index.html?id=news&nid=207" class="btn btn-default" onclick="window.location.href='http://autonovad.ua/index.html?id=news&nid=207'; return false;">Перейти к новости</button>
+								<a type="button" href="http://autonovad.ua/index.html?id=news&nid=207" class="btn btn-lg-visible">Перейти к новости</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 								<img src="img/svg/news-3.png" alt="" class="icon">
 								<h4>OSSCA в Украине- это AutoNova-D</h4>
-								<button href="http://autonovad.ua/index.html?id=news&nid=206" class="btn btn-default" onclick="window.location.href='http://autonovad.ua/index.html?id=news&nid=206'; return false;">Перейти к новости</button>
+								<a type="button" href="http://autonovad.ua/index.html?id=news&nid=206" class="btn btn-lg-visible">Перейти к новости</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 								<img src="img/svg/news-2.png" alt="" class="icon">
 								<h4>Расшифровка новой структуры артикула запчастей тм “DELLO Automega”</h4>
-								<button href="http://autonovad.ua/index.html?id=news&nid=205" class="btn btn-default" onclick="window.location.href='http://autonovad.ua/index.html?id=news&nid=205'; return false;">Перейти к новости</button>
+								<a type="button" href="http://autonovad.ua/index.html?id=news&nid=205" class="btn btn-lg-visible">Перейти к новости</a>
 							</div>
 							<div class="col-xs-12 col-sm-6 col-lg-3 img_news">
 								<img src="img/svg/news-all.png" alt="" class="icon">
 								<h4>ВСЕ НОВОСТИ</h4>
-								<button href="http://autonovad.ua/index.html?id=news&all=1" class="btn btn-default" onclick="window.location.href='http://autonovad.ua/index.html?id=news&all=1'; return false;">Перейти к новости</button>
+								<a type="button" href="http://autonovad.ua/index.html?id=news&all=1" class="btn btn-lg-visible">Перейти к новости</a>
 							</div>
 						</div>
 					</div>
