@@ -21,7 +21,7 @@
 		<div class="carousel-inner">					
 			<div class="item active">
 				<!-- Set the third background image using inline CSS below. -->
-				<a href="pages/evaq.php"><div class="fill" style="background-image:url( ./../img/header-evaq.jpg);"></div></a>
+				<a href="evaq.php"><div class="fill" style="background-image:url( ./../img/header-evaq.jpg);"></div></a>
 				<div class="carousel-caption">
 					<span class="title">Полный список эвакуаторов Киева</span><br>
 					<span class="caption">возможность сразу вызвать эвакуатор</span>
@@ -29,7 +29,7 @@
 			</div>
 			<div class="item">
 				<!-- Set the fourth background image using inline CSS below. -->
-				<a href="pages/taxi.php"><div class="fill" style="background-image:url( ./../img/header-taxi.jpg);"></div></a>
+				<a href="taxi.php"><div class="fill" style="background-image:url( ./../img/header-taxi.jpg);"></div></a>
 				<div class="carousel-caption">
 					<span class="title">Полный список такси Киева</span><br>
 					<span class="caption">возможность сразу вызвать такси</span>
