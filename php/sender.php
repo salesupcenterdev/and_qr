@@ -1,17 +1,15 @@
 <?php
 error_reporting(0);
 
-
 if (!empty($_POST['id'])) {
     $id = $_POST['id'];
     
     if (!empty($_POST['name'])) {
         $name = $_POST['name'];
     } else {
-        $name = "";
+        $name =  "пропущено название сервиса";
     }
-    
-    $name = 
+
     // обработка 
     $to  = "Postmaster <help.qr.and@gmail.com>, " ; 
     $to .= "copy <help.qr.and@yandex.ru>"; 
