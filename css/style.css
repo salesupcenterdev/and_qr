@@ -527,7 +527,7 @@ a.panel-toggle{
 	//zoom:1;
 	vertical-align:middle;
 	margin-top:-3px;
-	margin-right:3px;
+	margin-right:6px;
 	width:16px;
 	height:16px;
 }
@@ -535,8 +535,9 @@ a.panel-toggle{
 .mobo-home-16 {
 	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABRUlEQVQ4T6XTL0ieYRQF8N+ngsKQhc0i+AfTgkEMsiYIWoQVQTStqKBhjHVhLphWnAiiJpvBoiKILmzRtonLIoaBswgDwzblyv3g9UUZ8r3tvs+5557nnPtU1PhVaux3H0EvXqIbnajHKb7hC46KQ4sEzzGPYbQ+oCyItvAeF4EpEqxiIhs/4QCXqaAF/ZjO8zVMlgkC3JyA11gvqQhlO/kvsE/LBMdoT4lf0ZQ+XOMHzjCOV/iJtjJBFxoxiLdoSNP+YQB/EFf7nCq+lwmijsaPOTEmnSQ40tjGC7zDYvV6RRN7sI9IY7lgWBW7hBmcp8qI9U4Kb7CQ6IhrCntZD2EFHVkH9lZFUcEHzBacv8Jh1n1pavV4LnfhDkHEtIEn/1nv3xjFbllBrOwYRvAMdel84CKRSOMXNnPQ3/tSePTbqvk13gAnUDoR6obgvAAAAABJRU5ErkJggg==);
 }
-.mobo-mts-16 {	
-	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVQ4T5WTPaoCMRSFv0EsLLQdGXQDgo3TuAIRBBFB0dLWn1LQFShY+tNaKoKIhSBuwMrKwg2IYquFhUgecd5DhswE3i1PTr6c3OQaIpUSXK8QCPCver/BsjCEaQpuN3VvKAS5nKNvNvB8qp5oFEPEYoLz2b1oWTCdQibj6Lsd1Gpwubh98bgHIByGxQKyWbd5u4VyGR6Pr+4JaDZhOPRuR6sFo5EGEInAfg+JhDfgdIJ0Gu53Z11JkM/Deq1/jELh61EAvR50OnpAvw/drk+C2QwqFT1gPodq1QewXEKxqAesVl+PcoXxGOp1PWAygUbDJ4FskDxBVzLhn0dJEAw6n0iCvEq+UKkEr5dPAimbJgwGTjMlUJbcIJvXbuOam08Cv2GybUgmHcDxCIeDmukzTLatjrMQ3lcwjK/+O84/7haN12qsvLYAAAAASUVORK5CYII=);
+/*Vodafone*/
+.mobo-vodafone-16{
+	background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADVklEQVQ4T11TbWhTVxh+zr25uSa9SUxtbZNUS40tglNqkaJQdMH9UDbQFZShbDjmByjdDxV/qDhkigMHww6dH0Wcohuso6JuTGUUmhbbuTrSFUM/bNWmTWtikzb33tzcz51UrHXncOCc8573Oc95nvcQ/K+1tnZU+wK+Hd7iBRvs891L0gAxOx4918Ltrek1q35aEwp1zk0hcxfRaP+ZYLDiEMfZYNFAtvsvOJsaod7tgHX0GMa3bEbyVfqH1e9V7nuTNwswOvryjt9f/FE+kE3LMDp+h9B8FurVdrBnL0L6cg/kSRFKKo0pUQpXVy9blz87AzA0FPu2oiJwMD9XxBy0h3/C1d0MnLwOyVMJjD6Bk8aSEylIchailIWmyT/W1KzcScLhrqra2po+u/01ban3XwjXzgDnfgVydF1WhuT6OmDn5xBCdZDHksikpiiIDEKYWtI/+KyxMljeMENdM+Fo/Ao48R0gs1AWBSDnsojHn2GYxhdfaIJ37xcQo0OYnhah68ZNEo8n+kpLi6ryANrIU3CbNgDRCcDnh2Va0AhBloo6EBvGmGWh6uEjkOBSpAaHoKnqc5JIpBWPx8VzHAOz5Rcw9dsAbxnA294axDBIMCwexwaw8MQpcIePQIz0QBJFmcTHkorbJfC8wENtuQO2fjPsJYuovHl935hEINls6KIAroYDYE59A6WnF5IkZsnwcGzQ6y0Mwu0AeTEKZcUqLMxR9YqKANN8zYKxUfo6OqkWS76/AOWT7ZApgGHoMdLTE73oCwT2GPQ2rlCAduQ44qe/RnmhD16ngLw1E8RCW2wQ85ctR+lv95BJT2MqPg7CMc2kra1zpd8XiMybZwcRCmA5HTD3NyDZdB4GvTxDxyQdnmAVSq5cQ6a8Arm+fqRkCSX+4nUzj4xEopd43rE7L5tVtACWWwB/6zZSD+5DlqfhXL4C7MdbkXY6YfQN4FWG7nkKWjZ9sL5+tpS7/+kNs4SrYyldwvPIlfphMhRRVaFZBPrICPREApOSBLudi7gK2NWhUEh/5zO1t/99mWVtu2iF0afTTn03dIOWrQpFyUFRc2Dt7M9uB/tpPnn2L7w1HHjQGn6fMW2fUQvWGqblM3Sd0Q19nGrZxdrYGx9uDP0x9/x/QfJqzjc4sA8AAAAASUVORK5CYII=);
 }
 /*Київстар*/
 .mobo-kyivstar-16{
@@ -558,6 +559,7 @@ a.panel-toggle{
 	opacity: 1;
 	color: #a94442;
 	text-decoration: none;
+	cursor: pointer;
 }
 .complain-link:focus {
 	text-decoration: none;

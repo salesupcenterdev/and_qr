@@ -27,7 +27,7 @@
 					</ul>
 			</li>
 			<li class="navigate-top">
-				<a href="templates/main.php#contacts" class="navbar-nav-item link-navigate">Контакты</a>
+				<a href="main.php#contacts" class="navbar-nav-item link-navigate">Контакты</a>
 			</li>
 		</ul>
 	</div>
