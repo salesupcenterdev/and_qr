@@ -284,10 +284,10 @@
 												<input type="hidden" name="typeData" value="эвакуатор">
 											</form>
 											<hr>
-											<p>* Поля обезательные для заполнения</p>
+											<p>* Поля обязательные для заполнения</p>
 										</div>
 										<div class="modal-footer">
-											<button class="btn btn-modal" type="submit" data-dismiss="modal" id="send" >Submit</button>
+											<button class="btn btn-modal" type="submit" data-dismiss="modal" id="send" >Предложить</button>
 										</div>
 									</div>
 								</div>
