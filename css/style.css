@@ -329,7 +329,7 @@ a.panel-toggle{
 .contact-list{
 	font-size: 18px;
 	list-style: none;
-	padding: 0px;
+	padding: 0 20px;
 	line-height: 22px;
 }
 
@@ -337,6 +337,17 @@ a.panel-toggle{
 	padding-bottom: 5px;
 	line-height: 22px;
 }
+
+.buy-gear{
+	margin-bottom: 25px;
+}
+
+.subtitle{
+	font-size: 24px;
+	color: #3d3d3d;
+	padding: 0 20px;
+}
+
 
 /* footer bootom */
 #wrap {
@@ -447,15 +458,12 @@ a.panel-toggle{
 		padding: 60px 20px 20px 0;
 		
 	}
-
-	.title-start{
-		font-size: 48px;
-		padding:0 20px;
+	.contact-list{
+		padding: 0px;
 	}
-	.text-content{
-		padding:0 20px;
+	.subtitle{
+		padding: 0px;
 	}
-
 }
 
 
@@ -472,8 +480,20 @@ a.panel-toggle{
 	/*modal window section*/
 	.section-content.section-modal {
 		padding: 0;
-	}	
-
+	}
+	.title-start{
+		font-size: 48px;
+		padding:0 20px;
+	}
+	.text-content{
+		padding:0 20px;
+	}
+	.contact-list{
+		padding: 0 20px;
+	}
+	.subtitle{
+		padding: 0 20px;
+	}
 }
 
 @media (max-width: 768px) { /* these styles will appear if screen less than 768px */
@@ -513,7 +533,12 @@ a.panel-toggle{
 	.title-start{
 		font-size: 42px;
 	}
-
+	.contact-list{
+		padding: 0px;
+	}
+	.subtitle{
+		padding: 0px;
+	}
 }
 /* MEDIA END 
 

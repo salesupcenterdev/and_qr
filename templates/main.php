@@ -51,20 +51,6 @@
 		<div id="main">
 
 			<!-- Page Content -->
-			
-			<section id="services" class="visible-xs visible-sm first-section section-content">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 text-center">
-							<a href="pages/taxi.php" class="btn btn-xs-visible">Выбрать и вызвать <br>такси</a>
-						</div>
-						<div class="col-xs-12 col-sm-6 text-center">
-							<a href="pages/evaq.php" class="btn btn-xs-visible">Выбрать и вызвать <br>эвакуатор</a>
-						</div>
-					</div>					
-				</div>
-				<hr class="visible-xs visible-sm">
-			</section>
 
 			<!-- ABOUT SECTION -->
 			<section id="about" class="section-content">
@@ -87,6 +73,20 @@
 			
 			<hr class="hidden-xs hidden-sm">
 			
+			<section id="services" class="visible-xs visible-sm first-section section-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 text-center">
+							<a href="pages/taxi.php" class="btn btn-xs-visible">Выбрать и вызвать <br>такси</a>
+						</div>
+						<div class="col-xs-12 col-sm-6 text-center">
+							<a href="pages/evaq.php" class="btn btn-xs-visible">Выбрать и вызвать <br>эвакуатор</a>
+						</div>
+					</div>					
+				</div>
+				<hr class="visible-xs visible-sm">
+			</section>
+
 			<!-- SERVICE SECTION -->
 			<section id="services" class="hidden-xs hidden-sm section-content">
 				<div class="container">
@@ -158,12 +158,15 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12">
-							<h1 class="title-start">Контакты</h1>
+							<div class="buy-gear">
+								<h1 class="title-start">Запчасти</h1>
+								<span class="subtitle">для автомобилей семьи Volkswagen</span>
+							</div>
 							<p class="text-content">
 								<ul class="contact-list">
-									<li class="contact-list-item">Позвоните нам: <a class="link-text" href="tel:+380441234455">(044) 123 44 55</a></li>
-									<li class="contact-list-item">Напишите нам: <a class="link-text" href="mailto:info@autonovad.com.ua">info@autonovad.com.ua</a></li>
-									<li class="contact-list-item">Загляните к нам: <a class="link-text" href="https://goo.gl/maps/57yX893f7Ls" target="_blank">Киев, ул. Семьи Хохловых, 9А</a></li>
+									<li class="contact-list-item">Закажите по телефону: <a class="link-text" href="tel:+380444909190">(044) 490 9190</a></li>
+									<li class="contact-list-item">Закажите по email: <a class="link-text" href="mailto:zakaz@autonovad.ua">zakaz@autonovad.ua</a></li>
+									<li class="contact-list-item">Адрес склада: <a class="link-text" href="https://goo.gl/maps/57yX893f7Ls" target="_blank">Киев, ул. Семьи Хохловых, 9А</a></li>
 								</ul>
 							</p>
 						</div>
