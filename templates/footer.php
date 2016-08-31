@@ -8,4 +8,19 @@
 		</div>
 		<br>
 	</div>	<!-- /.container -->
-</footer> 
+</footer>
+
+<!-- jQuery -->
+<script type="text/javascript" src="./../js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script type="text/javascript" src="./../js/bootstrap.min.js"></script>
+
+<!-- custom script -->
+<script type="text/javascript" src="./../js/script.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript" src="./../js/scriptlandcc.js"></script>
+
+<!-- Mail Sender -->
+<script type="text/javascript" src="./../js/sender.js"></script>

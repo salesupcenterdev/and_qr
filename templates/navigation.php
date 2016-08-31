@@ -8,16 +8,16 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" href="../index.php"><img class="nav-logo" src="../img/logo.png"></a>
+		<a class="navbar-brand" href="main.php"><img class="nav-logo" src="../img/logo.png"></a>
 	</div>
 	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
 			<li class="navigate-top">
-				<a href="../index.php" class="navbar-nav-item link-navigate">Главная</a>
+				<a href="main.php" class="navbar-nav-item link-navigate">Главная</a>
 			</li>
 			<li class="navigate-top">
-				<a href="../index.php#about" class="navbar-nav-item link-navigate">Про сервис</a>
+				<a href="main.php#about" class="navbar-nav-item link-navigate">Про сервис</a>
 			</li>
 			<li class="dropdown navigate-top">
 				<a href="#" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="navbar-nav-item link-navigate">Сервисы<span class="caret"></span></a>
@@ -27,7 +27,7 @@
 					</ul>
 			</li>
 			<li class="navigate-top">
-				<a href="../index.php#contacts" class="navbar-nav-item link-navigate">Контакты</a>
+				<a href="templates/main.php#contacts" class="navbar-nav-item link-navigate">Контакты</a>
 			</li>
 		</ul>
 	</div>
