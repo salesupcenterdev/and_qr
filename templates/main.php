@@ -77,10 +77,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 text-center">
-							<a href="pages/taxi.php" class="btn btn-xs-visible">Выбрать и вызвать <br>такси</a>
+							<a href="taxi.php" class="btn btn-xs-visible">Выбрать и вызвать <br>такси</a>
 						</div>
 						<div class="col-xs-12 col-sm-6 text-center">
-							<a href="pages/evaq.php" class="btn btn-xs-visible">Выбрать и вызвать <br>эвакуатор</a>
+							<a href="evaq.php" class="btn btn-xs-visible">Выбрать и вызвать <br>эвакуатор</a>
 						</div>
 					</div>					
 				</div>
