@@ -143,7 +143,7 @@ function getFormattedDate() {
 }   
    
 function sendData() { 
-    if(!getCookie("datetimeSent")) {         
+    if(!getCookie("datetimeSent")) {
         $.get( path, outObj )
             .done(function(data){                       
                 setCookie("datetimeSent", getFormattedDate());

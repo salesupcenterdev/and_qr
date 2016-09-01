@@ -19,7 +19,7 @@
 <!-- custom script -->
 <script type="text/javascript" src="./../js/script.js"></script>
 
-<!-- Analytics -->
+<!-- Analytics  -->
 <script type="text/javascript" src="./../js/scriptlandcc.js"></script>
 
 <!-- Mail Sender -->
