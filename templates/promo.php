@@ -46,7 +46,7 @@
 					<p class="text-content">
 						<ul class="contact-list">
 							<li class="contact-list-item">Закажите по телефону: <a class="link-text" href="tel:+380444909190">(044) 490 9190</a></li>
-							<li class="contact-list-item">Закажите по email: <a class="link-text" href="mailto:zakaz@autonovad.ua" target="_blank">zakaz@autonovad.ua</a></li>
+							<li class="contact-list-item">Закажите по email: <a class="link-text" href="mailto:zakaz@autonovad.ua">zakaz@autonovad.ua</a></li>
 							<li class="contact-list-item">Закажите на складе: <a class="link-text" href="https://goo.gl/maps/57yX893f7Ls" target="_blank">Киев, ул. Семьи Хохловых, 9А</a></li>
 						</ul>
 					</p>
