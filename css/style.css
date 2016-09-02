@@ -148,8 +148,8 @@ h6 {
 
 .nav-logo{
 	margin-top: 7px;
-	width: 143px;
-	height: 31px;
+	width: 250px;
+	height: auto;
 }
 
 .navbar-nav-item{
@@ -473,6 +473,7 @@ a.panel-toggle{
 	}
 	.title-start{
 		font-size: 48px;
+		margin-bottom: 25px;
 	}
 	.img_news {
 		padding-bottom: 20px;

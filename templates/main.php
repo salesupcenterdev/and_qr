@@ -123,8 +123,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12">
-							<h1 class="title-start">Новости</h1><br>
-							<p class="text-content">Здесь транслируются новости с основного сайта. Сначала идут три новости, потом блок перехода в раздел всех новостей </p>
+							<h1 class="title-start">Новости на сайте</h1>
 						</div>
 					</div>
 					<div class="row">
@@ -153,27 +152,6 @@
 					</div>
 				</div>
 			</section>
-
-			<section id="contacts" class="section-content">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="buy-gear">
-								<h1 class="title-start">Запчасти</h1>
-								<span class="subtitle">для автомобилей семьи Volkswagen</span>
-							</div>
-							<p class="text-content">
-								<ul class="contact-list">
-									<li class="contact-list-item">Закажите по телефону: <a class="link-text" href="tel:+380444909190">(044) 490 9190</a></li>
-									<li class="contact-list-item">Закажите по email: <a class="link-text" href="mailto:zakaz@autonovad.ua">zakaz@autonovad.ua</a></li>
-									<li class="contact-list-item">Адрес склада: <a class="link-text" href="https://goo.gl/maps/57yX893f7Ls" target="_blank">Киев, ул. Семьи Хохловых, 9А</a></li>
-								</ul>
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>	
-
 		</div> <!-- / id="main" -->
 	</div> <!-- / id="wrap" -->
 
