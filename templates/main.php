@@ -156,6 +156,9 @@
 	</div> <!-- / id="wrap" -->
 
 	<!-- Footer Include -->
+	<?php include "promo.php" ?>
+
+	<!-- Footer Include -->
 	<?php include "footer.php" ?>	
 
 	<!-- Script to Activate the Carousel -->
