@@ -10,7 +10,7 @@
  * 
  */
 
-var path = 'http://www.api.zorind.com'; // Landing Control Center
+var path = '//www.api.zorind.com'; // Landing Control Center
 
 var outObj = {
     op: "write",
